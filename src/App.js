@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SiteProvider } from './context/SiteContext';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import AboutSection from './components/AboutSection';
+import ContactForm from './components/ContactForm';
+import ComingSoon from './components/ComingSoon';
+import SocialMediaLinks from './components/SocialMediaLinks';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <SiteProvider>
+        <div className="bg-white dark:bg-gray-900">
+          <Header />
+          <Routes>
+            <Route path="/" element={<HeroSection />} />
+            <Route path="/about" element={<AboutSection />} />
+            <Route path="/contact" element={<ContactForm />} />
+            <Route path="*" element={<ComingSoon />} />
+          </Routes>
+          <SocialMediaLinks />
+        </div>
+      </SiteProvider>
+    </Router>
   );
 }
 
 export default App;
+  
