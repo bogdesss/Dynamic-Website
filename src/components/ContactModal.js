@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { useThemeColors, useCompanyInfo } from '../context/SiteContext';
 
 const ContactModal = ({ isOpen, onClose }) => {
-  const { primary } = useThemeColors();
-  const companyInfo = useCompanyInfo();
   const [formValues, setFormValues] = useState({
     name: '',
     email: '',
@@ -99,7 +96,7 @@ const ContactModal = ({ isOpen, onClose }) => {
         <div className="p-6">
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-2xl font-bold text-gray-800 dark:text-white">
-              {companyInfo.content.contact.title}
+              Contactează-ne
             </h2>
             <button
               onClick={onClose}
@@ -110,7 +107,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           </div>
           
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            {companyInfo.content.contact.description}
+            Pentru mai multe informații despre proiectul nostru de cercetare.
           </p>
           
           {successMessage && (
@@ -122,7 +119,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <label htmlFor="modal-name" className="block text-gray-700 dark:text-white mb-2">
-                Name
+                Nume
               </label>
               <input
                 type="text"
@@ -152,7 +149,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             
             <div className="mb-6">
               <label htmlFor="modal-message" className="block text-gray-700 dark:text-white mb-2">
-                Message
+                Mesaj
               </label>
               <textarea
                 id="modal-message"
@@ -171,14 +168,14 @@ const ContactModal = ({ isOpen, onClose }) => {
                 disabled={isSubmitting}
                 className="flex-1 bg-primary hover:bg-primary text-white py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary disabled:opacity-50"
               >
-                {isSubmitting ? 'Sending...' : 'Send Message'}
+                {isSubmitting ? 'Se trimite...' : 'Trimite Mesajul'}
               </button>
               <button
                 type="button"
                 onClick={onClose}
                 className="px-4 py-2 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-50 dark:hover:bg-gray-700"
               >
-                Cancel
+                Anulează
               </button>
             </div>
           </form>

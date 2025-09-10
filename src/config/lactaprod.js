@@ -1,7 +1,7 @@
 export const lactaprodConfig = {
   // Company Information
-  name: "LactaProd SRL",
-  tagline: "Innovative Dairy Research & Development",
+  name: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
+  tagline: "Cercetare și Dezvoltare Inovatoare în Industria Lactatelor",
   address: "Satu Mare, str. Wolfenbuttel, nr. 24-26, jud. Satu Mare",
   phone: "+40 123 456 789",
   email: "contact@lactaprod.ro",
@@ -18,7 +18,7 @@ export const lactaprodConfig = {
   
   // Navigation Menu
   menuItems: [
-    { name: 'Acasa', path: '/', status: 'active' },
+    { name: 'Acasă', path: '/', status: 'active' },
     { name: 'Proiect', path: '/project', status: 'active' },
     { name: 'Parteneri', path: '/partners', status: 'active' },
     { name: 'Buget', path: '/budget', status: 'active' },
@@ -121,7 +121,7 @@ export const lactaprodConfig = {
   // Content Sections
   content: {
     hero: {
-      title: "LactaProd SRL",
+      title: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
       subtitle: "Cercetare și Dezvoltare în Industria Lactatelor",
       description: "Proiect inovator de cercetare în domeniul tehnologiilor lactatelor, cu parteneri de încredere și buget de 114.515 EURO.",
       ctaText: "Află Mai Multe",

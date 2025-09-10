@@ -15,17 +15,19 @@ function App() {
   return (
     <Router>
       <SiteProvider>
-        <div className="bg-white dark:bg-gray-900">
+        <div className="bg-white dark:bg-gray-900 min-h-screen flex flex-col">
           <Header />
-          <Routes>
-            <Route path="/" element={<HeroSection />} />
-            <Route path="/about" element={<AboutSection />} />
-            <Route path="/project" element={<ProjectSection />} />
-            <Route path="/partners" element={<PartnersSection />} />
-            <Route path="/budget" element={<BudgetSection />} />
-            <Route path="/contact" element={<ContactForm />} />
-            <Route path="*" element={<ComingSoon />} />
-          </Routes>
+          <main className="flex-1">
+            <Routes>
+              <Route path="/" element={<HeroSection />} />
+              <Route path="/about" element={<AboutSection />} />
+              <Route path="/project" element={<ProjectSection />} />
+              <Route path="/partners" element={<PartnersSection />} />
+              <Route path="/budget" element={<BudgetSection />} />
+              <Route path="/contact" element={<ContactForm />} />
+              <Route path="*" element={<ComingSoon />} />
+            </Routes>
+          </main>
           <SocialMediaLinks />
         </div>
       </SiteProvider>

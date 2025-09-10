@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { useLactaprodInfo } from '../context/SiteContext';
 import ContactModal from './ContactModal';
 
@@ -7,30 +6,34 @@ const HeroSection = () => {
   const lactaprodInfo = useLactaprodInfo();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const handleContactClick = () => {
-    setIsModalOpen(true);
-  };
-
   return (
     <>
-      <section className="bg-gray-100 dark:bg-gray-900">
-        <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="text-4xl font-bold mb-8">{lactaprodInfo.content.hero.title}</h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+      <section className="relative bg-gradient-to-br from-gray-50 via-white to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 overflow-hidden">
+        {/* Simple Background Pattern */}
+        <div className="absolute inset-0 opacity-5">
+          <div className="absolute top-0 left-0 w-full h-full bg-gray-200 dark:bg-gray-700" style={{
+            backgroundImage: 'radial-gradient(circle, #000 1px, transparent 1px)',
+            backgroundSize: '20px 20px'
+          }}></div>
+        </div>
+        
+        <div className="relative container mx-auto px-4 py-24 text-center">
+          
+          {/* Main Heading */}
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-primary to-gray-700 dark:from-white dark:via-primary dark:to-gray-300 bg-clip-text text-transparent">
+            {lactaprodInfo.content.hero.title}
+          </h1>
+          
+          {/* Subtitle */}
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 font-light">
             {lactaprodInfo.content.hero.subtitle}
           </p>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
+          
+          {/* Description */}
+          <p className="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
             {lactaprodInfo.content.hero.description}
           </p>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-6">
-            {lactaprodInfo.address}
-          </p>
-          <button 
-            onClick={handleContactClick}
-            className="bg-primary hover:bg-primary text-white py-3 px-6 rounded"
-          >
-            {lactaprodInfo.content.hero.ctaText}
-          </button>
+          
         </div>
       </section>
       

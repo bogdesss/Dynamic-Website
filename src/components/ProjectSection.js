@@ -58,20 +58,20 @@ const ProjectSection = () => {
           <div className="mb-12">
             <h3 className="text-2xl font-semibold mb-6 text-primary">Activități Beneficiar Principal</h3>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-primary bg-opacity-10 p-6 rounded-lg">
-                <h4 className="text-lg font-semibold mb-4">LactaProd SRL</h4>
-                <p className="text-gray-600 dark:text-gray-300 mb-4">
-                  <strong>Buget:</strong> {lactaprodInfo.beneficiary.budget} ({lactaprodInfo.beneficiary.budgetRON})
-                </p>
-                <ul className="space-y-2">
-                  {lactaprodInfo.beneficiary.activities.map((activity, index) => (
-                    <li key={index} className="flex items-start">
-                      <span className="text-primary mr-2">•</span>
-                      <span className="text-gray-600 dark:text-gray-300">{activity}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                      <div className="bg-primary text-white p-6 rounded-lg">
+                        <h4 className="text-lg font-semibold mb-4 text-white">LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ</h4>
+              <p className="text-white mb-4">
+                <strong>Buget:</strong> {lactaprodInfo.beneficiary.budget} ({lactaprodInfo.beneficiary.budgetRON})
+              </p>
+              <ul className="space-y-2">
+                {lactaprodInfo.beneficiary.activities.map((activity, index) => (
+                  <li key={index} className="flex items-start">
+                    <span className="text-white mr-2">•</span>
+                    <span className="text-white">{activity}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
             </div>
           </div>
         </div>
