@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { companyConfig } from '../config/company';
+import { lactaprodConfig } from '../config/lactaprod';
 
 const SiteContext = createContext();
 
@@ -9,6 +10,9 @@ export const SiteProvider = ({ children }) => {
   const [menuItems, setMenuItems] = useState(companyConfig.menuItems);
   const [themeColors, setThemeColors] = useState(companyConfig.colors);
   const [socialMediaLinks, setSocialMediaLinks] = useState(companyConfig.socialMediaLinks);
+  
+  // LactaProd specific state
+  const [lactaprodInfo, setLactaprodInfo] = useState(lactaprodConfig);
 
   // Update CSS custom properties when colors change
   useEffect(() => {
@@ -27,10 +31,12 @@ export const SiteProvider = ({ children }) => {
       menuItems, 
       themeColors, 
       socialMediaLinks,
+      lactaprodInfo,
       setCompanyInfo,
       setMenuItems,
       setThemeColors,
-      setSocialMediaLinks
+      setSocialMediaLinks,
+      setLactaprodInfo
     }}>
       {children}
     </SiteContext.Provider>
@@ -55,6 +61,11 @@ export const useCompanyInfo = () => {
 export const useMenuItems = () => {
   const context = useContext(SiteContext);
   return context.menuItems;
+};
+
+export const useLactaprodInfo = () => {
+  const context = useContext(SiteContext);
+  return context.lactaprodInfo;
 };
 
 export default SiteContext;
