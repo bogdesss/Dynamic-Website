@@ -1,6 +1,7 @@
 import React, { createContext, useState, useContext, useEffect } from 'react';
 import { companyConfig } from '../config/company';
 import { lactaprodConfig } from '../config/lactaprod';
+import { valeOlpretuluiConfig } from '../config/vale-olpretului';
 
 const SiteContext = createContext();
 
@@ -13,6 +14,9 @@ export const SiteProvider = ({ children }) => {
   
   // LactaProd specific state
   const [lactaprodInfo, setLactaprodInfo] = useState(lactaprodConfig);
+  
+  // Valea Olpretului specific state
+  const [valeOlpretuluiInfo, setValeOlpretuluiInfo] = useState(valeOlpretuluiConfig);
 
   // Update CSS custom properties when colors change
   useEffect(() => {
@@ -32,11 +36,13 @@ export const SiteProvider = ({ children }) => {
       themeColors, 
       socialMediaLinks,
       lactaprodInfo,
+      valeOlpretuluiInfo,
       setCompanyInfo,
       setMenuItems,
       setThemeColors,
       setSocialMediaLinks,
-      setLactaprodInfo
+      setLactaprodInfo,
+      setValeOlpretuluiInfo
     }}>
       {children}
     </SiteContext.Provider>
@@ -66,6 +72,11 @@ export const useMenuItems = () => {
 export const useLactaprodInfo = () => {
   const context = useContext(SiteContext);
   return context.lactaprodInfo;
+};
+
+export const useValeOlpretuluiInfo = () => {
+  const context = useContext(SiteContext);
+  return context.valeOlpretuluiInfo;
 };
 
 export default SiteContext;

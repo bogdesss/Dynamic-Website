@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useLactaprodInfo } from '../context/SiteContext';
+import { useValeOlpretuluiInfo } from '../context/SiteContext';
 
 const Header = () => {
-  const lactaprodInfo = useLactaprodInfo();
-  const menuItems = lactaprodInfo.menuItems;
+  const valeOlpretuluiInfo = useValeOlpretuluiInfo();
+  const menuItems = valeOlpretuluiInfo.menuItems;
 
   return (
     <header className="bg-white dark:bg-gray-800 shadow-lg border-b border-gray-100 dark:border-gray-700">
@@ -21,7 +21,7 @@ const Header = () => {
             {/* Brand Text */}
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800 dark:text-white group-hover:text-primary transition-colors duration-300">
-                {lactaprodInfo.name}
+                {valeOlpretuluiInfo.name}
               </span>
             </div>
           </div>

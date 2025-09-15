@@ -60,12 +60,10 @@ const ContactForm = () => {
               <div className="bg-primary text-white p-6 rounded-lg">
                 <h3 className="text-xl font-semibold mb-4">Despre Cooperativa</h3>
                 <p className="text-white mb-4">
-                  LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ este o organizație dedicată cercetării și dezvoltării 
-                  tehnologiilor inovatoare în industria lactatelor.
+                 
                 </p>
                 <p className="text-white">
-                  Colaborăm cu parteneri specializați pentru a dezvolta soluții durabile și eficiente 
-                  în domeniul tehnologiilor alimentare.
+                
                 </p>
               </div>
               

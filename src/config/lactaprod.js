@@ -1,10 +1,10 @@
 export const lactaprodConfig = {
   // Company Information
-  name: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
-  tagline: "Cercetare și Dezvoltare Inovatoare în Industria Lactatelor",
-  address: "Satu Mare, str. Wolfenbuttel, nr. 24-26, jud. Satu Mare",
-  phone: "+40 123 456 789",
-  email: "contact@lactaprod.ro",
+  name: "Valea Olpretului Cooperativa Agricola",
+  tagline: "Produse agricole proaspete și de calitate",
+  address: "",
+  phone: "",
+  email: "",
   
   // Brand Colors (Dairy/Agricultural theme)
   colors: {
@@ -19,6 +19,8 @@ export const lactaprodConfig = {
   // Navigation Menu
   menuItems: [
     { name: 'Acasă', path: '/', status: 'active' },
+    { name: 'Produse', path: '/products', status: 'active' },
+    { name: 'Coș', path: '/cart', status: 'active' },
     { name: 'Proiect', path: '/project', status: 'active' },
     { name: 'Parteneri', path: '/partners', status: 'active' },
     { name: 'Buget', path: '/budget', status: 'active' },
@@ -29,119 +31,80 @@ export const lactaprodConfig = {
   socialMediaLinks: [
     { name: 'Facebook', url: '#', icon: 'facebook' },
     { name: 'LinkedIn', url: '#', icon: 'linkedin' },
-    { name: 'Email', url: 'mailto:contact@lactaprod.ro', icon: 'email' }
+    { name: 'Email', url: '#', icon: 'email' }
   ],
   
   // Project Information
   project: {
-    title: "Proiect de Cercetare LactaProd",
-    description: "Dezvoltarea de tehnologii inovatoare în industria lactatelor",
-    totalBudget: "114.515 EURO",
-    totalBudgetRON: "557.836,91 lei",
-    duration: "12 luni",
-    startDate: "2021",
-    exchangeRate: "4.8713 RON/EUR"
+    title: "",
+    description: "",
+    totalBudget: "",
+    totalBudgetRON: "",
+    duration: "",
+    startDate: "",
+    exchangeRate: ""
   },
   
   // Beneficiary Information
   beneficiary: {
-    name: "LactaProd SRL",
-    role: "Solicitant Principal",
-    budget: "64.515 EURO",
-    budgetRON: "314.271,91 lei",
-    activities: [
-      "Elaborare studii pregătitoare",
-      "Management de proiect",
-      "Închiriere echipamente",
-      "Onorarii parteneri",
-      "Elaborare software",
-      "Inventariere resurse",
-      "Diseminare rezultate"
-    ]
+    name: "",
+    role: "",
+    budget: "",
+    budgetRON: "",
+    activities: []
   },
   
   // Partners Information
-  partners: [
-    {
-      name: "SC MNA Prodcom Impex SRL",
-      budget: "25.000 EURO",
-      budgetRON: "121.782,50 lei",
-      team: [
-        "Coordonator: Munteanu Ioan",
-        "Director Științific: Tuluca Elisaveta",
-        "Asistent Director: Raicu Ilioara"
-      ],
-      activities: [
-        "Onorarii echipă de cercetare",
-        "Analize de laborator",
-        "Consumabile de laborator"
-      ]
-    },
-    {
-      name: "NUTRACEUTICAL SRL",
-      budget: "25.000 EURO", 
-      budgetRON: "121.782,50 lei",
-      team: [
-        "Coordonator: Lazurca Dumitru",
-        "Biolog: Lazurca Maria",
-        "Asistent Director: Nagy Imre"
-      ],
-      activities: [
-        "Onorarii echipă de cercetare",
-        "Analize de laborator",
-        "Consumabile de laborator"
-      ]
-    }
-  ],
+  partners: [],
   
   // Budget Breakdown
   budget: {
     chapter1: {
-      title: "Studii/Planuri",
-      amount: "5.600 EURO",
-      description: "Elaborarea de studii pregătitoare, studii de fezabilitate și planuri"
+      title: "",
+      amount: "",
+      description: ""
     },
     chapter2: {
-      title: "Costuri de Funcționare",
-      amount: "14.989 EURO",
-      description: "Cheltuieli de transport, diurnă și onorarii personal"
+      title: "",
+      amount: "",
+      description: ""
     },
     chapter3: {
-      title: "Costuri Directe",
-      amount: "88.800 EURO",
-      description: "Chirii echipamente, onorarii parteneri, alte cheltuieli"
+      title: "",
+      amount: "",
+      description: ""
     },
     chapter4: {
-      title: "Diseminare Rezultate",
-      amount: "5.126 EURO",
-      description: "Evenimente, publicații, participare la evenimente"
+      title: "",
+      amount: "",
+      description: ""
     }
   },
   
   // Content Sections
   content: {
     hero: {
-      title: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
-      subtitle: "Cercetare și Dezvoltare în Industria Lactatelor",
-      description: "Proiect inovator de cercetare în domeniul tehnologiilor lactatelor, cu parteneri de încredere și buget de 114.515 EURO.",
-      ctaText: "Află Mai Multe",
-      ctaLink: "/project"
+      title: "Valea Olpretului Cooperativa Agricola",
+      subtitle: "Produse agricole proaspete și de calitate",
+      description: "Descoperiți produsele noastre agricole proaspete, cultivate cu grijă și pasiune.",
+      ctaText: "Vezi Produsele",
+      ctaLink: "/products"
     },
     project: {
-      title: "Proiectul LactaProd",
-      description: "Dezvoltarea de tehnologii inovatoare în industria lactatelor prin cercetare colaborativă cu parteneri specializați."
+      title: "",
+      description: ""
     },
     partners: {
-      title: "Partenerii Noștri",
-      description: "Colaborăm cu experți în domeniul cercetării și dezvoltării tehnologiilor alimentare."
+      title: "",
+      description: ""
     },
     budget: {
-      title: "Bugetul Proiectului",
-      description: "Transparență totală în gestionarea resurselor financiare ale proiectului."
+      title: "",
+      description: ""
     },
     contact: {
-      title: "Contactează-ne",
-      description: "Pentru mai multe informații despre proiectul nostru de cercetare."
+      title: "",
+      description: ""
     }
   }
 };
