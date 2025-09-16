@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "products": "Produse",
+    "cart": "Coș",
+    "about": "Despre Noi",
+    "contact": "Contact",
+    "gdpr": "GDPR"
+  },
+  "hero": {
+    "title": "Valea Olprețului Cooperativa Agricolă",
+    "subtitle": "Produse agricole locale, proaspete și de calitate",
+    "description": "Descoperă produsele noastre agricole proaspete, cultivate cu grijă în Valea Olprețului.",
+    "ctaText": "Vezi Produsele"
+  },
+  "product": {
+    "addToCart": "Adaugă în coș",
+    "unavailable": "Indisponibil",
+    "stock": {
+      "in_stock": "În stoc",
+      "low_stock": "Stoc redus",
+      "out_of_stock": "Stoc epuizat"
+    }
+  },
+  "products": {
+    "1": { "title": "Mere Golden Delicious", "description": "Mere proaspete, crocante și dulci" },
+    "2": { "title": "Pere Conference", "description": "Pere aromate și suculente" },
+    "3": { "title": "Prune Stanley", "description": "Prune mari și dulci, perfecte pentru dulceață" },
+    "4": { "title": "Cireșe Bing", "description": "Cireșe mari și roșii, foarte dulci" },
+    "5": { "title": "Căpșuni", "description": "Căpșuni proaspete, aromate și dulci" },
+    "6": { "title": "Zmeură", "description": "Zmeură de grădină, foarte aromată" }
+  },
+  "cart": {
+    "title": "Coșul de cumpărături",
+    "emptyTitle": "Coșul este gol",
+    "emptySubtitle": "Adaugă produse din pagina de produse pentru a începe cumpărăturile.",
+    "itemsInCart": "Produse în coș",
+    "total": "Total:",
+    "pricePerUnit": "RON / buc",
+    "clear": "Golește coșul",
+    "checkout": "Finalizează comanda"
+  },
+  "liveCart": {
+    "empty": "Coșul este gol",
+    "viewProducts": "Vezi produsele →",
+    "yourCart": "Coșul tău",
+    "viewAll": "Vezi tot →",
+    "moreItems": "+{{count}} produse mai multe",
+    "total": "Total:",
+    "checkout": "Finalizează comanda"
+  },
+  "footer": {
+    "gdpr": "GDPR"
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "description": "Pentru mai multe informații despre cooperativă și proiectul de cercetare.",
+    "sections": {
+      "contactInfo": "Informații de Contact",
+      "address": "Adresă",
+      "phone": "Telefon",
+      "email": "Email",
+      "aboutCooperative": "Despre Cooperativa",
+      "researchProject": "Proiectul de Cercetare",
+      "totalBudget": "Buget total",
+      "duration": "Durată",
+      "year": "Anul"
+    }
+  },
+  "about": {
+    "title": "Despre Noi",
+    "description": "Inovăm și colaborăm pentru a aduce comunității produse agricole de calitate.",
+    "objectives": {
+      "title": "Obiectivele Proiectului",
+      "items": [
+        "Dezvoltarea de tehnologii inovatoare în industria lactatelor",
+        "Îmbunătățirea calității produselor lactate",
+        "Creșterea eficienței proceselor de producție",
+        "Promovarea durabilității în sectorul agricol"
+      ]
+    },
+    "benefits": {
+      "title": "Beneficiile Așteptate",
+      "items": [
+        "Tehnologii mai eficiente și durabile",
+        "Produse lactate de calitate superioară",
+        "Colaborare între parteneri specializați",
+        "Contribuție la dezvoltarea sectorului agricol"
+      ]
+    }
+  },
+  "gdpr": {
+    "title": "GDPR",
+    "intro": "Respectăm confidențialitatea ta. Colectăm doar datele necesare pentru a-ți răspunde și a procesa comenzile.",
+    "dataCollectedTitle": "Date colectate",
+    "dataCollectedList": [
+      "Nume",
+      "Email",
+      "Telefon"
+    ],
+    "purposeTitle": "Scopul prelucrării",
+    "purposeText": "Utilizăm datele tale pentru a procesa coșul de cumpărături și pentru a te contacta cu privire la comenzile sau solicitările tale.",
+    "legalTitle": "Temei legal",
+    "legalText": "Prelucrarea are la bază interesul legitim și/sau executarea unui contract, precum și consimțământul tău atunci când este necesar.",
+    "retentionTitle": "Perioada de stocare",
+    "retentionText": "Păstrăm datele doar cât este necesar pentru scopurile indicate sau conform obligațiilor legale.",
+    "contactTitle": "Drepturile tale și contact",
+    "contactText": "Ne poți solicita accesul, rectificarea sau ștergerea datelor. Pentru solicitări, contactează-ne folosind datele publicate pe site."
+  }
+}

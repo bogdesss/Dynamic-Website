@@ -46,12 +46,12 @@ export const products = [
 export const getStockStatus = (stock) => {
   switch (stock) {
     case 'in_stock':
-      return { text: 'In stoc', color: 'green' };
+      return { text: 'in_stock', color: 'green' };
     case 'low_stock':
-      return { text: 'Stoc insuficient', color: 'red' };
+      return { text: 'low_stock', color: 'red' };
     case 'out_of_stock':
-      return { text: 'Stoc insuficient', color: 'red' };
+      return { text: 'out_of_stock', color: 'red' };
     default:
-      return { text: 'Stoc insuficient', color: 'red' };
+      return { text: 'out_of_stock', color: 'red' };
   }
 };

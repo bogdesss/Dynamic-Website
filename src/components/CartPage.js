@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import CustomerInfoModal from './CustomerInfoModal';
+import { useTranslation } from 'react-i18next';
 
 const CartPage = () => {
   const { items, removeFromCart, updateQuantity, getTotalPrice, clearCart, getTotalItems } = useCart();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const { t } = useTranslation();
 
   const handleSendEmail = () => {
     setIsModalOpen(true);
@@ -24,14 +26,14 @@ const CartPage = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Coșul de cumpărături
+              {t('cart.title')}
             </h1>
             <div className="bg-white rounded-lg shadow-md p-12">
               <div className="text-gray-500 text-xl mb-4">
-                🛒 Coșul este gol
+                🛒 {t('cart.emptyTitle')}
               </div>
               <p className="text-gray-600">
-                Adăugați produse din pagina de produse pentru a începe cumpărăturile.
+                {t('cart.emptySubtitle')}
               </p>
             </div>
           </div>
@@ -51,7 +53,7 @@ const CartPage = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Coșul de cumpărături
+            {t('cart.title')}
           </h1>
           <p className="text-xl text-gray-600">
             Valea Olpretului Cooperativa Agricola
@@ -67,7 +69,7 @@ const CartPage = () => {
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <div className="px-6 py-4 border-b border-gray-200">
             <h2 className="text-lg font-semibold text-gray-900">
-              Produse în coș ({items.length})
+              {t('cart.itemsInCart')} ({items.length})
             </h2>
           </div>
 
@@ -76,10 +78,10 @@ const CartPage = () => {
               <div key={item.id} className="px-6 py-4 flex items-center justify-between">
                 <div className="flex-1">
                   <h3 className="text-lg font-medium text-gray-900">
-                    {item.title}
+                    {t(`products.${item.id}.title`, { defaultValue: item.title })}
                   </h3>
                   <p className="text-sm text-gray-500">
-                    {item.description}
+                    {t(`products.${item.id}.description`, { defaultValue: item.description })}
                   </p>
                 </div>
 
@@ -107,7 +109,7 @@ const CartPage = () => {
                       {(item.price * item.quantity).toFixed(2)} RON
                     </div>
                     <div className="text-sm text-gray-500">
-                      {item.price.toFixed(2)} RON / buc
+                      {item.price.toFixed(2)} {t('cart.pricePerUnit')}
                     </div>
                   </div>
 
@@ -125,7 +127,7 @@ const CartPage = () => {
           <div className="px-6 py-4 bg-gray-50 border-t border-gray-200">
             <div className="flex items-center justify-between mb-4">
               <span className="text-xl font-semibold text-gray-900">
-                Total:
+                {t('cart.total')}
               </span>
               <span className="text-2xl font-bold text-green-600">
                 {getTotalPrice().toFixed(2)} RON
@@ -137,13 +139,13 @@ const CartPage = () => {
                 onClick={clearCart}
                 className="flex-1 py-2 px-4 border border-gray-300 rounded-md text-gray-700 hover:bg-gray-50 transition-colors"
               >
-                Golește coșul
+                {t('cart.clear')}
               </button>
               <button
                 onClick={handleSendEmail}
                 className="flex-1 py-2 px-4 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
               >
-                Finalizează comanda
+                {t('cart.checkout')}
               </button>
             </div>
           </div>

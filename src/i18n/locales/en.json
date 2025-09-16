@@ -1,0 +1,110 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "about": "About Us",
+    "contact": "Contact",
+    "gdpr": "GDPR"
+  },
+  "hero": {
+    "title": "Valea Olprețului Agricultural Cooperative",
+    "subtitle": "Local, fresh and quality agricultural products",
+    "description": "Discover our fresh agricultural products, carefully grown in Valea Olprețului.",
+    "ctaText": "View Products"
+  },
+  "product": {
+    "addToCart": "Add to cart",
+    "unavailable": "Unavailable",
+    "stock": {
+      "in_stock": "In stock",
+      "low_stock": "Low stock",
+      "out_of_stock": "Out of stock"
+    }
+  },
+  "products": {
+    "1": { "title": "Golden Delicious Apples", "description": "Fresh, crisp and sweet apples" },
+    "2": { "title": "Conference Pears", "description": "Aromatic and juicy pears" },
+    "3": { "title": "Stanley Plums", "description": "Large, sweet plums, perfect for jam" },
+    "4": { "title": "Bing Cherries", "description": "Large, red, very sweet cherries" },
+    "5": { "title": "Strawberries", "description": "Fresh, aromatic and sweet strawberries" },
+    "6": { "title": "Raspberries", "description": "Garden raspberries, very aromatic" }
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "emptyTitle": "Your cart is empty",
+    "emptySubtitle": "Add products from the products page to start shopping.",
+    "itemsInCart": "Items in cart",
+    "total": "Total:",
+    "pricePerUnit": "RON / unit",
+    "clear": "Clear cart",
+    "checkout": "Checkout"
+  },
+  "liveCart": {
+    "empty": "Your cart is empty",
+    "viewProducts": "See products →",
+    "yourCart": "Your cart",
+    "viewAll": "View all →",
+    "moreItems": "+{{count}} more items",
+    "total": "Total:",
+    "checkout": "Checkout"
+  },
+  "footer": {
+    "gdpr": "GDPR"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "For more information about our cooperative and research project.",
+    "sections": {
+      "contactInfo": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "aboutCooperative": "About the Cooperative",
+      "researchProject": "Research Project",
+      "totalBudget": "Total budget",
+      "duration": "Duration",
+      "year": "Year"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We innovate and collaborate to bring quality agricultural products to our community.",
+    "objectives": {
+      "title": "Project Objectives",
+      "items": [
+        "Develop innovative technologies in the dairy industry",
+        "Improve the quality of dairy products",
+        "Increase production process efficiency",
+        "Promote sustainability in the agricultural sector"
+      ]
+    },
+    "benefits": {
+      "title": "Expected Benefits",
+      "items": [
+        "More efficient and sustainable technologies",
+        "Higher quality dairy products",
+        "Collaboration with specialized partners",
+        "Contribution to the development of the agricultural sector"
+      ]
+    }
+  },
+  "gdpr": {
+    "title": "GDPR",
+    "intro": "We respect your privacy. We collect only the data needed to respond and process orders.",
+    "dataCollectedTitle": "Data we collect",
+    "dataCollectedList": [
+      "Name",
+      "Email",
+      "Phone"
+    ],
+    "purposeTitle": "Purpose of processing",
+    "purposeText": "We use your data to process your shopping cart and to contact you about orders or requests.",
+    "legalTitle": "Legal basis",
+    "legalText": "Processing is based on legitimate interest and/or contract performance, as well as your consent where required.",
+    "retentionTitle": "Retention period",
+    "retentionText": "We keep data only as long as necessary for the purposes stated or to meet legal obligations.",
+    "contactTitle": "Your rights and contact",
+    "contactText": "You may request access, rectification, or deletion of your data. For requests, contact us using the details published on the site."
+  }
+}

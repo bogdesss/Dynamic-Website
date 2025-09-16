@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { useValeOlpretuluiInfo } from '../context/SiteContext';
 import ContactModal from './ContactModal';
+import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
   const valeOlpretuluiInfo = useValeOlpretuluiInfo();
+  const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -21,17 +23,17 @@ const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-primary to-gray-700 dark:from-white dark:via-primary dark:to-gray-300 bg-clip-text text-transparent">
-            {valeOlpretuluiInfo.content.hero.title}
+            {t('hero.title')}
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 font-light">
-            {valeOlpretuluiInfo.content.hero.subtitle}
+            {t('hero.subtitle')}
           </p>
           
           {/* Description */}
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-            {valeOlpretuluiInfo.content.hero.description}
+            {t('hero.description')}
           </p>
           
           {/* CTA Button */}
@@ -40,7 +42,7 @@ const HeroSection = () => {
               href={valeOlpretuluiInfo.content.hero.ctaLink}
               className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
-              {valeOlpretuluiInfo.content.hero.ctaText}
+              {t('hero.ctaText')}
             </a>
           </div>
           

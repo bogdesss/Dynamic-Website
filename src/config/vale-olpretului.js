@@ -22,6 +22,7 @@ export const valeOlpretuluiConfig = {
     { name: 'Produse', path: '/products', status: 'active' },
     { name: 'Coș', path: '/cart', status: 'active' },
     { name: 'Despre Noi', path: '/about', status: 'active' },
+    { name: 'GDPR', path: '/gdpr', status: 'active' },
     { name: 'Contact', path: '/contact', status: 'active' }
   ],
   

@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 import CustomerInfoModal from './CustomerInfoModal';
+import { useTranslation } from 'react-i18next';
 
 const LiveCart = () => {
   const { items, getTotalPrice, getTotalItems, clearCart } = useCart();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
+  const { t } = useTranslation();
 
   const handleEmailSent = (message) => {
     setSuccessMessage(message);
@@ -26,13 +28,13 @@ const LiveCart = () => {
       <div className="fixed right-4 top-20 w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50">
         <div className="text-center">
           <div className="text-gray-500 text-sm mb-2">
-            🛒 Coșul este gol
+            🛒 {t('liveCart.empty')}
           </div>
           <Link 
             to="/products"
             className="text-green-600 hover:text-green-700 text-sm font-medium"
           >
-            Vezi produsele →
+            {t('liveCart.viewProducts')}
           </Link>
         </div>
       </div>
@@ -43,13 +45,13 @@ const LiveCart = () => {
     <div className="fixed right-4 top-20 w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50 max-h-96 overflow-y-auto">
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-lg font-semibold text-gray-900">
-          Coșul tău ({getTotalItems()})
+          {t('liveCart.yourCart')} ({getTotalItems()})
         </h3>
         <Link 
           to="/cart"
           className="text-green-600 hover:text-green-700 text-sm font-medium"
         >
-          Vezi tot →
+          {t('liveCart.viewAll')}
         </Link>
       </div>
 
@@ -58,7 +60,7 @@ const LiveCart = () => {
           <div key={item.id} className="flex items-center justify-between text-sm">
             <div className="flex-1">
               <div className="font-medium text-gray-900 truncate">
-                {item.title}
+                {t(`products.${item.id}.title`, { defaultValue: item.title })}
               </div>
               <div className="text-gray-500">
                 {item.quantity} × {item.price.toFixed(2)} RON
@@ -72,7 +74,7 @@ const LiveCart = () => {
         
         {items.length > 3 && (
           <div className="text-center text-gray-500 text-sm">
-            +{items.length - 3} produse mai multe
+            {t('liveCart.moreItems', { count: items.length - 3 })}
           </div>
         )}
       </div>
@@ -80,7 +82,7 @@ const LiveCart = () => {
       <div className="border-t border-gray-200 pt-3">
         <div className="flex items-center justify-between mb-3">
           <span className="text-lg font-semibold text-gray-900">
-            Total:
+            {t('liveCart.total')}
           </span>
           <span className="text-xl font-bold text-green-600">
             {getTotalPrice().toFixed(2)} RON
@@ -91,7 +93,7 @@ const LiveCart = () => {
           onClick={() => setIsModalOpen(true)}
           className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors text-center block font-medium"
         >
-          Finalizează comanda
+          {t('liveCart.checkout')}
         </button>
       </div>
       
