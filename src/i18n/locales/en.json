@@ -1,0 +1,174 @@
+{
+  "header": {
+    "companyName": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE",
+    "menu": {
+      "home": "Home",
+      "project": "Project",
+      "partners": "Partners",
+      "budget": "Budget",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE",
+    "subtitle": "Research and Development in the Dairy Industry",
+    "description": "Innovative research project in dairy technologies, with trusted partners and a budget of 114,515 EURO.",
+    "ctaText": "Learn More",
+    "ctaLink": "/project"
+  },
+  "project": {
+    "title": "LactaProd Project",
+    "description": "Development of innovative technologies in the dairy industry through collaborative research with specialized partners.",
+    "details": {
+      "totalBudget": "Total Budget",
+      "totalBudgetRON": "Total Budget (RON)",
+      "duration": "Duration",
+      "startDate": "Start Date",
+      "exchangeRate": "Exchange Rate"
+    },
+    "durationText": "12 months",
+    "currencyText": "RON",
+    "sections": {
+      "projectInfo": "Project Information",
+      "totalBudget": "Total Budget",
+      "beneficiaryActivities": "Main Beneficiary Activities",
+      "title": "Title",
+      "duration": "Duration",
+      "year": "Year",
+      "value": "Value",
+      "lei": "Lei",
+      "exchangeRate": "Exchange Rate",
+      "budget": "Budget",
+      "activities": "Activities"
+    },
+    "beneficiaryActivities": [
+      "Preparation studies development",
+      "Project management",
+      "Equipment rental",
+      "Partner fees",
+      "Software development",
+      "Resource inventory",
+      "Results dissemination"
+    ]
+  },
+  "partners": {
+    "title": "Our Partners",
+    "description": "We collaborate with experts in the field of food technology research and development.",
+    "beneficiary": {
+      "name": "Main Beneficiary",
+      "role": "Role",
+      "budget": "Budget",
+      "budgetRON": "Budget (RON)",
+      "activities": "Activities"
+    },
+    "sections": {
+      "allocatedBudget": "Allocated Budget",
+      "researchTeam": "Research Team",
+      "activities": "Activities",
+      "totalPartners": "Total Partners"
+    },
+    "partnersData": [
+      {
+        "name": "SC MNA Prodcom Impex SRL",
+        "budget": "25.000 EURO",
+        "budgetRON": "121.782,50 RON",
+        "team": [
+          "Coordinator: Munteanu Ioan",
+          "Scientific Director: Tuluca Elisaveta",
+          "Assistant Director: Raicu Ilioara"
+        ],
+        "activities": [
+          "Research team fees",
+          "Laboratory analysis",
+          "Laboratory consumables"
+        ]
+      },
+      {
+        "name": "NUTRACEUTICAL SRL",
+        "budget": "25.000 EURO",
+        "budgetRON": "121.782,50 RON",
+        "team": [
+          "Coordinator: Lazurca Dumitru",
+          "Biologist: Lazurca Maria",
+          "Assistant Director: Nagy Imre"
+        ],
+        "activities": [
+          "Research team fees",
+          "Laboratory analysis",
+          "Laboratory consumables"
+        ]
+      }
+    ]
+  },
+  "budget": {
+    "title": "Project Budget",
+    "description": "Total transparency in managing the project's financial resources.",
+    "chapters": {
+      "studies": "Studies/Plans",
+      "operating": "Operating Costs",
+      "direct": "Direct Costs",
+      "dissemination": "Results Dissemination"
+    },
+    "descriptions": {
+      "studies": "Development of preparatory studies, feasibility studies and plans",
+      "operating": "Transport costs, per diems and personnel fees",
+      "direct": "Equipment rental, partner fees, other expenses",
+      "dissemination": "Events, publications, participation in events"
+    },
+    "sections": {
+      "chapter1": "Chapter 1",
+      "chapter2": "Chapter 2",
+      "chapter3": "Chapter 3", 
+      "chapter4": "Chapter 4",
+      "amount": "Amount",
+      "description": "Description",
+      "totalProjectBudget": "Total Project Budget",
+      "exchangeRate": "Exchange Rate"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "For more information about our research project.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "sections": {
+      "contactInfo": "Contact Information",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "contactForm": "Contact Form",
+      "sendMessage": "Send Message",
+      "aboutCooperative": "About the Cooperative",
+      "researchProject": "Research Project",
+      "totalBudget": "Total budget",
+      "duration": "Duration",
+      "year": "Year"
+    },
+    "aboutText": {
+      "description1": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE is an organization dedicated to research and development of innovative technologies in the dairy industry.",
+      "description2": "We collaborate with specialized partners to develop sustainable and efficient solutions in the field of food technologies."
+    }
+  },
+  "footer": {
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "followUs": "Follow Us"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "backToTop": "Back to Top",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  }
+}

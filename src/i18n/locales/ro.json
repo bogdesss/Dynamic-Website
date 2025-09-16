@@ -1,0 +1,174 @@
+{
+  "header": {
+    "companyName": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
+    "menu": {
+      "home": "Acasă",
+      "project": "Proiect",
+      "partners": "Parteneri",
+      "budget": "Buget",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "title": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
+    "subtitle": "Cercetare și Dezvoltare în Industria Lactatelor",
+    "description": "Proiect inovator de cercetare în domeniul tehnologiilor lactatelor, cu parteneri de încredere și buget de 114.515 EURO.",
+    "ctaText": "Află Mai Multe",
+    "ctaLink": "/project"
+  },
+  "project": {
+    "title": "Proiectul LactaProd",
+    "description": "Dezvoltarea de tehnologii inovatoare în industria lactatelor prin cercetare colaborativă cu parteneri specializați.",
+    "details": {
+      "totalBudget": "Buget Total",
+      "totalBudgetRON": "Buget Total (RON)",
+      "duration": "Durată",
+      "startDate": "Data Începerii",
+      "exchangeRate": "Curs de Schimb"
+    },
+    "durationText": "12 luni",
+    "currencyText": "lei",
+    "sections": {
+      "projectInfo": "Informații Proiect",
+      "totalBudget": "Buget Total",
+      "beneficiaryActivities": "Activități Beneficiar Principal",
+      "title": "Titlu",
+      "duration": "Durată",
+      "year": "Anul",
+      "value": "Valoare",
+      "lei": "Lei",
+      "exchangeRate": "Curs schimb",
+      "budget": "Buget",
+      "activities": "Activități"
+    },
+    "beneficiaryActivities": [
+      "Elaborare studii pregătitoare",
+      "Management de proiect",
+      "Închiriere echipamente",
+      "Onorarii parteneri",
+      "Elaborare software",
+      "Inventariere resurse",
+      "Diseminare rezultate"
+    ]
+  },
+  "partners": {
+    "title": "Partenerii Noștri",
+    "description": "Colaborăm cu experți în domeniul cercetării și dezvoltării tehnologiilor alimentare.",
+    "beneficiary": {
+      "name": "Beneficiar Principal",
+      "role": "Rol",
+      "budget": "Buget",
+      "budgetRON": "Buget (RON)",
+      "activities": "Activități"
+    },
+    "sections": {
+      "allocatedBudget": "Buget Alocat",
+      "researchTeam": "Echipa de Cercetare",
+      "activities": "Activități",
+      "totalPartners": "Total Parteneri"
+    },
+    "partnersData": [
+      {
+        "name": "SC MNA Prodcom Impex SRL",
+        "budget": "25.000 EURO",
+        "budgetRON": "121.782,50 RON",
+        "team": [
+          "Coordonator: Munteanu Ioan",
+          "Director Științific: Tuluca Elisaveta",
+          "Asistent Director: Raicu Ilioara"
+        ],
+        "activities": [
+          "Onorarii echipă de cercetare",
+          "Analize de laborator",
+          "Consumabile de laborator"
+        ]
+      },
+      {
+        "name": "NUTRACEUTICAL SRL",
+        "budget": "25.000 EURO",
+        "budgetRON": "121.782,50 RON",
+        "team": [
+          "Coordonator: Lazurca Dumitru",
+          "Biolog: Lazurca Maria",
+          "Asistent Director: Nagy Imre"
+        ],
+        "activities": [
+          "Onorarii echipă de cercetare",
+          "Analize de laborator",
+          "Consumabile de laborator"
+        ]
+      }
+    ]
+  },
+  "budget": {
+    "title": "Bugetul Proiectului",
+    "description": "Transparență totală în gestionarea resurselor financiare ale proiectului.",
+    "chapters": {
+      "studies": "Studii/Planuri",
+      "operating": "Costuri de Funcționare",
+      "direct": "Costuri Directe",
+      "dissemination": "Diseminare Rezultate"
+    },
+    "descriptions": {
+      "studies": "Elaborarea de studii pregătitoare, studii de fezabilitate și planuri",
+      "operating": "Cheltuieli de transport, diurnă și onorarii personal",
+      "direct": "Chirii echipamente, onorarii parteneri, alte cheltuieli",
+      "dissemination": "Evenimente, publicații, participare la evenimente"
+    },
+    "sections": {
+      "chapter1": "Capitolul 1",
+      "chapter2": "Capitolul 2", 
+      "chapter3": "Capitolul 3",
+      "chapter4": "Capitolul 4",
+      "amount": "Suma",
+      "description": "Descriere",
+      "totalProjectBudget": "Buget Total Proiect",
+      "exchangeRate": "Curs de schimb"
+    }
+  },
+  "contact": {
+    "title": "Contactează-ne",
+    "description": "Pentru mai multe informații despre proiectul nostru de cercetare.",
+    "form": {
+      "name": "Nume",
+      "email": "Email",
+      "phone": "Telefon",
+      "message": "Mesaj",
+      "send": "Trimite",
+      "sending": "Se trimite...",
+      "success": "Mesajul a fost trimis cu succes!",
+      "error": "A apărut o eroare. Vă rugăm să încercați din nou."
+    },
+    "sections": {
+      "contactInfo": "Informații de Contact",
+      "address": "Adresă",
+      "phone": "Telefon",
+      "email": "Email",
+      "contactForm": "Formular de Contact",
+      "sendMessage": "Trimite Mesaj",
+      "aboutCooperative": "Despre Cooperativa",
+      "researchProject": "Proiectul de Cercetare",
+      "totalBudget": "Buget total",
+      "duration": "Durată",
+      "year": "Anul"
+    },
+    "aboutText": {
+      "description1": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ este o organizație dedicată cercetării și dezvoltării tehnologiilor inovatoare în industria lactatelor.",
+      "description2": "Colaborăm cu parteneri specializați pentru a dezvolta soluții durabile și eficiente în domeniul tehnologiilor alimentare."
+    }
+  },
+  "footer": {
+    "address": "Adresă",
+    "phone": "Telefon",
+    "email": "Email",
+    "followUs": "Urmărește-ne"
+  },
+  "common": {
+    "learnMore": "Află Mai Multe",
+    "readMore": "Citește Mai Mult",
+    "backToTop": "Înapoi Sus",
+    "loading": "Se încarcă...",
+    "error": "Eroare",
+    "success": "Succes"
+  }
+}

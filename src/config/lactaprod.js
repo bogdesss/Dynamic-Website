@@ -34,11 +34,11 @@ export const lactaprodConfig = {
   
   // Project Information
   project: {
-    title: "Proiect de Cercetare LactaProd",
+    title: "LactaProd Research Project",
     description: "Dezvoltarea de tehnologii inovatoare în industria lactatelor",
     totalBudget: "114.515 EURO",
-    totalBudgetRON: "557.836,91 lei",
-    duration: "12 luni",
+    totalBudgetRON: "557.836,91 RON",
+    duration: "12 months",
     startDate: "2021",
     exchangeRate: "4.8713 RON/EUR"
   },
@@ -48,7 +48,7 @@ export const lactaprodConfig = {
     name: "LactaProd SRL",
     role: "Solicitant Principal",
     budget: "64.515 EURO",
-    budgetRON: "314.271,91 lei",
+    budgetRON: "314.271,91 RON",
     activities: [
       "Elaborare studii pregătitoare",
       "Management de proiect",
@@ -65,7 +65,7 @@ export const lactaprodConfig = {
     {
       name: "SC MNA Prodcom Impex SRL",
       budget: "25.000 EURO",
-      budgetRON: "121.782,50 lei",
+      budgetRON: "121.782,50 RON",
       team: [
         "Coordonator: Munteanu Ioan",
         "Director Științific: Tuluca Elisaveta",
@@ -80,7 +80,7 @@ export const lactaprodConfig = {
     {
       name: "NUTRACEUTICAL SRL",
       budget: "25.000 EURO", 
-      budgetRON: "121.782,50 lei",
+      budgetRON: "121.782,50 RON",
       team: [
         "Coordonator: Lazurca Dumitru",
         "Biolog: Lazurca Maria",

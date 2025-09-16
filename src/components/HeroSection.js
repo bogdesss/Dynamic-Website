@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useLactaprodInfo } from '../context/SiteContext';
 import ContactModal from './ContactModal';
 
 const HeroSection = () => {
+  const { t } = useTranslation();
   const lactaprodInfo = useLactaprodInfo();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -21,18 +23,28 @@ const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-primary to-gray-700 dark:from-white dark:via-primary dark:to-gray-300 bg-clip-text text-transparent">
-            {lactaprodInfo.content.hero.title}
+            {t('hero.title')}
           </h1>
           
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6 font-light">
-            {lactaprodInfo.content.hero.subtitle}
+            {t('hero.subtitle')}
           </p>
           
           {/* Description */}
           <p className="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-3xl mx-auto leading-relaxed">
-            {lactaprodInfo.content.hero.description}
+            {t('hero.description')}
           </p>
+          
+          {/* CTA Button */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a 
+              href={t('hero.ctaLink')}
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
+            >
+              {t('hero.ctaText')}
+            </a>
+          </div>
           
         </div>
       </section>
