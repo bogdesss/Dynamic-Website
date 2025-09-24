@@ -3,6 +3,7 @@
     "companyName": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE",
     "menu": {
       "home": "Home",
+      "products": "Products",
       "project": "Project",
       "partners": "Partners",
       "budget": "Budget",
@@ -12,93 +13,96 @@
   "hero": {
     "title": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE",
     "subtitle": "Research and Development in the Dairy Industry",
-    "description": "Innovative research project in dairy technologies, with trusted partners and a budget of 114,515 EURO.",
+    "description": "",
     "ctaText": "Learn More",
     "ctaLink": "/project"
   },
+  "home": {
+    "title": "HOME",
+    "subtitle": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE, partnership leader",
+    "p1": "LACTAPROD OAS AGRICULTURAL COOPERATIVE, as the partnership Leader together with NUTRACEUTICAL SRL – Partner 1 and MNA PRODCOM IMPEX SRL – Partner 2, is implementing the project titled: \n\n\"ADVANCED INTEGRATIVE PROCESSING OF ANIMAL BIORESOURCES FOR THE PURPOSE OF OBTAINING INNOVATIVE NATURAL PRODUCTS IN LINE WITH EU QUALITY REQUIREMENTS.\"",
+    "p2": "Considering that the dairy products market is very large, but most products are manufactured from various substances and additives, to differentiate our own products and create a local brand, it was necessary to develop innovative products based on the results of research.",
+    "p3": "In this regard, Lactaprod Oaș turned to two research companies with experience in this field, as partners, with the direct beneficiaries being the cooperative member farmers and the farmers from Țara Oașului who will have access to the project results, and the indirect beneficiaries being the final consumers."
+  },
   "project": {
     "title": "LactaProd Project",
-    "description": "Development of innovative technologies in the dairy industry through collaborative research with specialized partners.",
-    "details": {
-      "totalBudget": "Total Budget",
-      "totalBudgetRON": "Total Budget (RON)",
-      "duration": "Duration",
-      "startDate": "Start Date",
-      "exchangeRate": "Exchange Rate"
+    "scope": {
+      "title": "SCOPE",
+      "p1": "Existing processors in Romania produce foods from imported raw materials, often enhanced with E‑numbers or other synthetic products that provide shelf stability, taste, appearance and aroma, but which are based on chemical compounds that are not healthy.",
+      "p2": "Traditional products are made by individual producers. They are not processed in series because they do not ensure the traceability and long‑term stability required for commercialization in large quantities, and they rely on local recipes.",
+      "p3": "For these reasons, the project set out to create functional products with long‑term stability, attractive appearance and aroma, based on natural additives obtained through research, even though the preparation methods remain classic."
     },
-    "durationText": "12 months",
-    "currencyText": "RON",
-    "sections": {
-      "projectInfo": "Project Information",
-      "totalBudget": "Total Budget",
-      "beneficiaryActivities": "Main Beneficiary Activities",
-      "title": "Title",
-      "duration": "Duration",
-      "year": "Year",
-      "value": "Value",
-      "lei": "Lei",
-      "exchangeRate": "Exchange Rate",
-      "budget": "Budget",
-      "activities": "Activities"
+    "mainObjective": {
+      "title": "Main objective",
+      "items": [
+        "To obtain new innovative traditional assortments from animal bioresources by adding bioactive compounds and natural flavorings, and to develop professional skills together with increased socio‑economic benefits for small farmers, ensuring the sustainable development of this category of agricultural producers."
+      ]
     },
-    "beneficiaryActivities": [
-      "Preparation studies development",
-      "Project management",
-      "Equipment rental",
-      "Partner fees",
-      "Software development",
-      "Resource inventory",
-      "Results dissemination"
-    ]
+    "secondaryObjectives": {
+      "title": "Secondary objectives",
+      "items": [
+        "Documenting and inventorying local animal bioresources, then processing this information via logistics software to be developed based on laboratory analyses of the inventoried bioresources.",
+        "Obtaining milk products and preparations with added value by enriching them with concentrated extracts of bioactive compounds and natural flavorings that prevent degradation over time and confer hedonic sensory properties of taste and aroma.",
+        "Higher value capitalization of by‑products resulting from primary processing through complementary operations, generating bases for functional feed and natural fertilizers."
+      ]
+    },
+    "finalScope": {
+      "title": "Final scope",
+      "items": [
+        "Maximizing profits obtained by agri‑food producers compared to current revenues from selling unprocessed products.",
+        "Raising the professional level through the implementation of advanced technologies for processing bioresources, and enabling creative and entrepreneurial capacities to launch new competitive products for domestic and international markets.",
+        "Broadening socio‑economic knowledge as a basis for the sustainable development of individual households.",
+        "Providing concrete examples and encouraging the expansion of categories of bioresources that can generate income through innovative processing.",
+        "Stimulating the acquisition of new equipment required for processing local bioresources.",
+        "Adoption of the project results by specialists through technology transfer."
+      ]
+    }
   },
   "partners": {
     "title": "Our Partners",
-    "description": "We collaborate with experts in the field of food technology research and development.",
-    "beneficiary": {
-      "name": "Main Beneficiary",
-      "role": "Role",
-      "budget": "Budget",
-      "budgetRON": "Budget (RON)",
-      "activities": "Activities"
+    "description": "Project partners and their contributions.",
+    "lider": {
+      "title": "Partnership Leader",
+      "paragraphs": [
+        "Partnership Leader LACTAPROD OAS AGRICULTURAL COOPERATIVE from Tur, Certeze work point.",
+        "LACTAPROD Oaș Agricultural Cooperative is a legal entity formed by 11 cooperative members. Main activity: processing dairy and cheese products. The main objective is to create conditions for milk processing and obtaining natural, preservative-free finished foods at EU market quality standards."
+      ]
     },
-    "sections": {
-      "allocatedBudget": "Allocated Budget",
-      "researchTeam": "Research Team",
-      "activities": "Activities",
-      "totalPartners": "Total Partners"
+    "partener1": {
+      "title": "Partner 1 – NUTRACEUTICAL SRL",
+      "intro": "NUTRACEUTICAL SRL has extensive experience in RDI and tech transfer, participating in national and international projects:",
+      "projects": [
+        "RICOP/Nutraceutical 2004-2007 – research and production using non-invasive processing methods to preserve active substances in medicinal plants, berries, and vegetables.",
+        "SAFFIC 2006-2009 – international consortium on saffron purity/quality standards and detection of market frauds, stimulating organic cultivation.",
+        "ENERGOFORT 2006-2008 – rapid extraction of bioactive substances and their use in food supplements.",
+        "IMS 2006-2008 – with Lucian Blaga University, introducing in vitro Gentiana lutea genotypes into cultivation.",
+        "TECHeese 2010-2012 – effects of medicinal/aromatic plants in sheep diet on milk/meat/health; use of essential oils in new flavored cheeses."
+      ],
+      "involvement": [
+        "Partner 1 engaged in dairy product research; field documentation on local resources of milk, plants, and beehive products used as minor ingredients.",
+        "Samples collected at various stages and provided by farmers were analyzed and processed via lab methods close to production, aiming at diverse finished products including animal, plant, and beehive resources."
+      ],
+      "processing": "Natural extracts prepared via rapid extraction under pressure/temperature control, subcritical fluids, steam under vacuum, and ultrasound; innovative recipes respecting traditional methods with ultrasound steps for taste, texture, uniformity, delicacy, and aroma."
     },
-    "partnersData": [
-      {
-        "name": "SC MNA Prodcom Impex SRL",
-        "budget": "25.000 EURO",
-        "budgetRON": "121.782,50 RON",
-        "team": [
-          "Coordinator: Munteanu Ioan",
-          "Scientific Director: Tuluca Elisaveta",
-          "Assistant Director: Raicu Ilioara"
-        ],
-        "activities": [
-          "Research team fees",
-          "Laboratory analysis",
-          "Laboratory consumables"
-        ]
-      },
-      {
-        "name": "NUTRACEUTICAL SRL",
-        "budget": "25.000 EURO",
-        "budgetRON": "121.782,50 RON",
-        "team": [
-          "Coordinator: Lazurca Dumitru",
-          "Biologist: Lazurca Maria",
-          "Assistant Director: Nagy Imre"
-        ],
-        "activities": [
-          "Research team fees",
-          "Laboratory analysis",
-          "Laboratory consumables"
-        ]
-      }
-    ]
+    "partener2": {
+      "title": "Partner 2 – MNA PRODCOM IMPEX SRL",
+      "intro": [
+        "Partner 2 SC MNA PRODCOM IMPEX SRL.",
+        "Specialized in RDI and technology transfer; proposals appreciated by UEFISCDI, funded in Innovation Vouchers 2012."
+      ],
+      "projects": [
+        "Functional foods concentrated in bioactive compounds from ecological resources (65CI/27.06.2012) – conceptual models, physico-chemical analysis, processing methods, micropilot production.",
+        "Bio-protective flavored oils for phytotherapeutic and food uses (146CI/11.09.2012) – conceptual models, innovative products from oil resources with ω3, ω6, ω9, essential oils, and commercialization opportunities."
+      ],
+      "involvement": [
+        "Research on local resources from inventory of animal resources and traditional recipes combined with other identified local resources to obtain new products.",
+        "Innovative character ensured by optimized traditional processing with multiple possibilities to diversify and increase nutritional quality; product innovation includes:"
+      ],
+      "innovationTitle": "-",
+      "innovationItems": [
+        "Preparing animal product samples to assess superior sensory properties due to feeding; achieving superior nutraceutical potential via functional feeds with bio-protective active principles and combining them with plant additives from innovative extractions."
+      ]
+    }
   },
   "budget": {
     "title": "Project Budget",
@@ -162,6 +166,36 @@
     "phone": "Phone",
     "email": "Email",
     "followUs": "Follow Us"
+  },
+  "productsPage": {
+    "title": "Products",
+    "searchPlaceholder": "Search products...",
+    "noResults": "No products match your search.",
+    "readMore": "Read more",
+    "readLess": "Read less"
+  },
+  "products": {
+    "introTitle": "Innovative products obtained from research:",
+    "telemea": {
+      "title": "Buffalo telemea cheese with essential oil",
+      "desc": "Buffalo milk is an exceptional source of essential nutrients, with a higher content of protein, calcium and healthy fats compared to cow’s milk. This type of milk offers numerous health benefits, from strengthening the bone system to improving immunity. Its rich content of antioxidants and vitamins makes buffalo milk an excellent choice for maintaining optimal health.\nBuffalo milk contains less cholesterol and sodium than cow’s milk, making it a healthier option for people following a balanced diet. Its creamy texture and dense consistency recommend it for traditional dairy products such as telemea cheese. The presence of essential oils adds extra flavor and contributes to the product’s health‑promoting properties. The most commonly used essential oils in cheese making are mint, rosemary, basil and thyme."
+    },
+    "ghee": {
+      "title": "Clarified butter (ghee) from buffalo milk with essential oil",
+      "desc": "Clarified butter is obtained by separating the liquid and solid parts of butter through simmering and removing the milk solids. This makes clarified butter very suitable for people who are lactose‑intolerant. It is worth noting that clarified butter has a much higher smoke point, which makes it suitable for frying.\nBeyond its undeniable usefulness in the kitchen, this type of butter has been used since ancient times in Ayurveda (traditional Indian medicine), with numerous positive effects on health. Clarified butter helps protect vision, the nervous system and digestion, improves memory and contains many vitamins as well as antioxidants. Like other dairy products, it can be enhanced with various essential oils."
+    },
+    "yogurt": {
+      "title": "Yogurt with natural flavors and resveratrol",
+      "desc": "Yogurt is a valuable food with numerous health benefits, especially for digestion and immunity. Many of these benefits are due to the probiotics in yogurt, which help regulate intestinal transit, strengthen the immune system and prevent certain diseases such as osteoporosis, heart disease and obesity.\nResveratrol has many health benefits, including antioxidant and anti‑inflammatory properties. This compound may help prevent chronic diseases such as cancer, cardiovascular disease and diabetes. As natural flavors we will use the aromas of berries, which are widely present in the Țara Oașului area."
+    },
+    "cheese": {
+      "title": "Buffalo cheese with natural flavors and resveratrol",
+      "desc": "Benefits of consuming buffalo cheese:\nStudies suggest that buffalo milk may provide multiple health benefits.\n- May support bone health (rich in calcium and peptides).\n- May provide antioxidant activity (vitamins A, E and bioactive compounds).\n- May improve heart health (beta‑lactoglobulin and potassium supporting lower blood pressure)."
+    },
+    "whey": {
+      "title": "Protein drink from buffalo whey and resveratrol",
+      "desc": "There is an Italian proverb dating back to the 16th century: ‘If everyone were fed with whey, doctors would go bankrupt.’ Whey—the yellowish, slightly sour and cloudy liquid remaining after cheese making—contains many of the same nutrients as milk but with less fat. It is rich in B‑complex vitamins, calcium, potassium and iodine. Whey proteins contain the highest concentration of amino acids.\nWhey contains orotic acid (vitamin B13), which helps lower cholesterol, protects intestinal flora, prevents premature aging and certain liver disorders, and combats anemia. It helps fix magnesium at the cellular level and increases the energetic value of heart cells, thus improving resistance to effort and stress.\nWhey therapy is also recommended for people suffering from conditions such as osteoarthritis, high blood pressure, colitis, cystitis or tetany. It is known for its fat‑burning action and is recommended in weight‑loss diets. Proteins in this food improve calcium absorption and help prevent osteoporosis."
+    }
   },
   "common": {
     "learnMore": "Learn More",

@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useLactaprodInfo } from '../context/SiteContext';
 import LanguageSwitcher from './LanguageSwitcher';
+import headerImage from '../Img/Header.png';
+import logoImage from '../Img/Logo.png';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -15,6 +17,20 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-gray-800 shadow-lg border-b border-gray-100 dark:border-gray-700">
+      {/* Global header image banner - above all content */}
+      <div 
+        className="w-full overflow-hidden bg-white"
+        style={{
+          backgroundImage: `url(${headerImage})`,
+          backgroundSize: 'contain',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          height: '110px'
+        }}
+        aria-label="Site header image"
+        role="img"
+      />
+
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
           {/* Language Switcher - Top Left */}
@@ -22,15 +38,9 @@ const Header = () => {
             <LanguageSwitcher />
           </div>
 
-          {/* Modern Logo/Brand Section - Center */}
+          {/* Logo + Brand */}
           <div className="flex items-center space-x-3 group cursor-pointer">
-            {/* Logo Icon - Dairy/Research Theme */}
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-              <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
-            </div>
-            {/* Brand Text */}
+            <img src={logoImage} alt="Logo" className="h-12 w-auto object-contain" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800 dark:text-white group-hover:text-primary transition-colors duration-300">
                 {t('header.companyName')}
@@ -43,7 +53,7 @@ const Header = () => {
             <li>
               <Link 
                 to="/" 
-                className="relative text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
+                className="relative text-gray-800 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
               >
                 {t('header.menu.home')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
@@ -51,8 +61,17 @@ const Header = () => {
             </li>
             <li>
               <Link 
+                to="/products" 
+                className="relative text-gray-800 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
+              >
+                {t('header.menu.products')}
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+              </Link>
+            </li>
+            <li>
+              <Link 
                 to="/project" 
-                className="relative text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
+                className="relative text-gray-800 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
               >
                 {t('header.menu.project')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
@@ -61,7 +80,7 @@ const Header = () => {
             <li>
               <Link 
                 to="/partners" 
-                className="relative text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
+                className="relative text-gray-800 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
               >
                 {t('header.menu.partners')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
@@ -69,17 +88,8 @@ const Header = () => {
             </li>
             <li>
               <Link 
-                to="/budget" 
-                className="relative text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
-              >
-                {t('header.menu.budget')}
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-            </li>
-            <li>
-              <Link 
                 to="/contact" 
-                className="relative text-gray-600 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
+                className="relative text-gray-800 hover:text-primary dark:text-gray-300 dark:hover:text-primary font-medium transition-colors duration-300 group"
               >
                 {t('header.menu.contact')}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
@@ -99,7 +109,6 @@ const Header = () => {
             </svg>
           </button>
         </nav>
-
         {/* Mobile Menu Panel */}
         {isMobileOpen && (
           <div className="md:hidden mt-3 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg overflow-hidden">
@@ -118,6 +127,15 @@ const Header = () => {
               </li>
               <li>
                 <Link 
+                  to="/products" 
+                  onClick={closeMobileMenu}
+                  className="block px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
+                >
+                  {t('header.menu.products')}
+                </Link>
+              </li>
+              <li>
+                <Link 
                   to="/project" 
                   onClick={closeMobileMenu}
                   className="block px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
@@ -132,15 +150,6 @@ const Header = () => {
                   className="block px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
                 >
                   {t('header.menu.partners')}
-                </Link>
-              </li>
-              <li>
-                <Link 
-                  to="/budget" 
-                  onClick={closeMobileMenu}
-                  className="block px-4 py-3 text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700"
-                >
-                  {t('header.menu.budget')}
                 </Link>
               </li>
               <li>

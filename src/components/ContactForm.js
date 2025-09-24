@@ -68,24 +68,7 @@ const ContactForm = () => {
                   {t('contact.aboutText.description2')}
                 </p>
               </div>
-              
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
-                <h3 className="text-xl font-semibold mb-4 text-primary">{t('contact.sections.researchProject')}</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">{t('contact.sections.totalBudget')}:</span>
-                    <span className="font-semibold text-primary">{lactaprodInfo.project.totalBudget}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">{t('contact.sections.duration')}:</span>
-                    <span className="font-semibold text-primary">{t('project.durationText')}</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-300">{t('contact.sections.year')}:</span>
-                    <span className="font-semibold text-primary">{lactaprodInfo.project.startDate}</span>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
