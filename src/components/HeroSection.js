@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLactaprodInfo } from '../context/SiteContext';
+// Cleansed template: no project-specific context
 import ContactModal from './ContactModal';
 
 const HeroSection = () => {
   const { t } = useTranslation();
-  const lactaprodInfo = useLactaprodInfo();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -48,11 +47,7 @@ const HeroSection = () => {
 
             {/* RIGHT: Image */}
             <div className="flex justify-center md:justify-end">
-              <img
-                src="/img/laborator.png" // place in public/img/
-                alt="Laborator de cercetare lactate"
-                className="rounded-2xl shadow-lg max-h-[400px] w-full md:w-auto object-cover"
-              />
+              <div className="rounded-2xl shadow-lg max-h-[400px] w-full md:w-[480px] h-[280px] bg-gray-200 dark:bg-gray-700" aria-hidden="true" />
             </div>
           </div>
         </div>

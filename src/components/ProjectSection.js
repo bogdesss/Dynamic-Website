@@ -1,10 +1,10 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLactaprodInfo } from '../context/SiteContext';
+import { useProjectInfo } from '../context/SiteContext';
 
 const ProjectSection = () => {
   const { t } = useTranslation();
-  const lactaprodInfo = useLactaprodInfo();
+  const projectInfo = useProjectInfo();
 
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -16,50 +16,27 @@ const ProjectSection = () => {
             {/* Scopul (intro) */}
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-4 text-primary">{t('project.scope.title')}</h3>
-              <div className="space-y-4 text-gray-700 dark:text-gray-300">
-                <p className="leading-relaxed text-left">{t('project.scope.p1')}</p>
-                <p className="leading-relaxed text-left">{t('project.scope.p2')}</p>
-                <p className="leading-relaxed text-left">{t('project.scope.p3')}</p>
+              <div className="space-y-4 text-gray-700 dark:text-gray-300 min-h-[6rem]">
+                {/* Placeholder content intentionally left blank for template */}
               </div>
             </div>
 
             {/* Obiectiv principal */}
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-4 text-primary">{t('project.mainObjective.title')}</h3>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                {(t('project.mainObjective.items', { returnObjects: true }) || []).map((item, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="mr-2">•</span>
-                    <span className="leading-relaxed text-left">{item}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="text-gray-700 dark:text-gray-300 min-h-[4rem]" />
             </div>
 
             {/* Obiective secundare */}
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-4 text-primary">{t('project.secondaryObjectives.title')}</h3>
-              <ul className="space-y-3 text-gray-700 dark:text-gray-300">
-                {(t('project.secondaryObjectives.items', { returnObjects: true }) || []).map((item, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="mr-2">•</span>
-                    <span className="leading-relaxed text-left">{item}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="text-gray-700 dark:text-gray-300 min-h-[6rem]" />
             </div>
 
             {/* Scopul final */}
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-4 text-primary">{t('project.finalScope.title')}</h3>
-              <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-                {(t('project.finalScope.items', { returnObjects: true }) || []).map((item, index) => (
-                  <li key={index} className="flex items-start">
-                    <span className="mr-2">✓</span>
-                    <span className="leading-relaxed text-left">{item}</span>
-                  </li>
-                ))}
-              </ul>
+              <div className="text-gray-700 dark:text-gray-300 min-h-[4rem]" />
             </div>
           </div>
         </div>

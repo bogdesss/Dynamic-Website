@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import { useLactaprodInfo } from '../context/SiteContext';
+import { useProjectInfo } from '../context/SiteContext';
 
 const PaginatedCard = ({ title, blocks }) => {
   const [page, setPage] = React.useState(0);
@@ -109,7 +109,7 @@ const PaginatedCard = ({ title, blocks }) => {
 
 const PartnersSection = () => {
   const { t } = useTranslation();
-  const lactaprodInfo = useLactaprodInfo();
+  const projectInfo = useProjectInfo();
 
   return (
     <section className="bg-gray-50 dark:bg-gray-800">
@@ -118,39 +118,17 @@ const PartnersSection = () => {
           <h1 className="text-4xl font-bold mb-8 text-center text-primary">
             {t('partners.title')}
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 text-center">
-            {t('partners.description')}
-          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 text-center min-h-[2rem]" />
 
           <div className="grid gap-8 md:grid-cols-1 lg:grid-cols-3">
             {/* Card 1: Lider de parteneriat */}
-            <PaginatedCard
-              title={t('partners.lider.title')}
-              blocks={(t('partners.lider.paragraphs', { returnObjects: true }) || []).map(text => ({ type: 'p', text }))}
-            />
+            <PaginatedCard title={t('partners.lider.title')} blocks={[]} />
 
             {/* Card 2: Partener 1 */}
-            <PaginatedCard
-              title={t('partners.partener1.title')}
-              blocks={[
-                { type: 'p', text: t('partners.partener1.intro') },
-                ...((t('partners.partener1.projects', { returnObjects: true }) || []).map(text => ({ type: 'li', text, bullet: '•' }))),
-                ...((t('partners.partener1.involvement', { returnObjects: true }) || []).map(text => ({ type: 'p', text }))),
-                { type: 'p', text: t('partners.partener1.processing') }
-              ]}
-            />
+            <PaginatedCard title={t('partners.partener1.title')} blocks={[]} />
 
             {/* Card 3: Partener 2 */}
-            <PaginatedCard
-              title={t('partners.partener2.title')}
-              blocks={[
-                ...((t('partners.partener2.intro', { returnObjects: true }) || []).map(text => ({ type: 'p', text }))),
-                ...((t('partners.partener2.projects', { returnObjects: true }) || []).map(text => ({ type: 'li', text, bullet: '•' }))),
-                ...((t('partners.partener2.involvement', { returnObjects: true }) || []).map(text => ({ type: 'p', text }))),
-                { type: 'p', text: t('partners.partener2.innovationTitle') },
-                ...((t('partners.partener2.innovationItems', { returnObjects: true }) || []).map(text => ({ type: 'li', text, bullet: '-' })))
-              ]}
-            />
+            <PaginatedCard title={t('partners.partener2.title')} blocks={[]} />
           </div>
         </div>
       </div>

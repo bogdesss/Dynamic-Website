@@ -1,9 +1,9 @@
 {
   "header": {
-    "companyName": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
+    "companyName": "",
     "menu": {
-      "home": "Acasă",
-      "products": "Produse",
+    "home": "Acasă",
+    "products": "Produse",
       "project": "Proiect",
       "partners": "Parteneri",
       "budget": "Buget",
@@ -11,97 +11,63 @@
     }
   },
   "hero": {
-    "title": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
-    "subtitle": "Cercetare și Dezvoltare în Industria Lactatelor",
+    "title": "",
+    "subtitle": "",
     "description": "",
     "ctaText": "Află Mai Multe",
     "ctaLink": "/project"
   },
   "home": {
-    "title": "ACASĂ",
-    "subtitle": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ, lider de parteneriat",
-    "p1": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ în calitate de Lider al parteneriatului împreună cu NUTRACEUTICAL SRL – Partener 1 și MNA PRODCOM IMPEX SRL – Partener 2, implementează proiectul cu titlul: \n\n„PROCESAREA INTEGRATIVĂ AVANSATĂ A BIORESURSELOR ANIMALIERE ÎN SCOPUL OBȚINERII DE PRODUSE NATURALE INOVATIVE LA NIVELUL CERINȚELOR CALITATIVE ALE UE”.",
-    "p2": "Având în vedere că piața produselor lactate este foarte mare, dar majoritatea produselor sunt fabricate din diverse substanțe și E-uri, pentru diferențierea produselor proprii și crearea unui brand local a fost necesară realizarea unor produse inovative, bazate pe rezultatele unor cercetări.",
-    "p3": "În acest sens, Lactaprod Oaș s-a orientat înspre două firme de cercetare cu experiență în acest domeniu, ca parteneri, având ca beneficiari direcți fermierii membri cooperatori și fermierii din Țara Oașului care vor avea acces la rezultatele proiectului, iar ca beneficiari indirecți sunt consumatorii finali."
+    "title": "",
+    "subtitle": "",
+    "p1": "",
+    "p2": "",
+    "p3": ""
   },
   "project": {
-    "title": "Proiectul LactaProd",
+    "title": "",
     "scope": {
-      "title": "SCOPUL",
-      "p1": "Procesatorii existenți în România realizează produse din materii prime provenite din import, aditivate cu E-uri sau alte produse de sinteză care asigură produselor stabilitate în timp, gust, aspect și miros atractiv, dar bazate pe compuși chimici, nesănătoși.",
-      "p2": "Produsele tradiționale sunt făcute de producători individuali, nu sunt procesate la nivel de serie pentru că nu asigură trasabilitate și stabilitate în timp necesare comercializării în cantități mari și se bazează pe rețete specifice locului.",
-      "p3": "Motiv pentru care proiectul și-a propus să realizeze produse funcționale, cu stabilitate în timp, aspect și miros atractiv, bazate pe aditivi naturali, rezultatul unor cercetări, chiar dacă metodele de preparare sunt clasice."
+      "title": "",
+      "p1": "",
+      "p2": "",
+      "p3": ""
     },
     "mainObjective": {
       "title": "Obiectivul principal",
       "items": [
-        "Obținerea de noi sortimente tradiționale inovative, din bioresurse animaliere prin aditivare cu compuși bioactivi și aromatizanți naturali, respectiv dezvoltarea competențelor profesionale, coroborată cu creșterea beneficiilor socio-economice pentru micii fermieri, care să asigure dezvoltarea sustenabilă a acestei categorii de producători agricoli."
+        "obținerea de noi sortimente tradiționale inovative, din bioresurse vegetale prin aditivare cu compuși bioactivi și aromatizanți naturali, respectiv dezvoltarea competențelor profesionale, coroborată cu creșterea beneficiilor socio-economice pentru micii fermieri, care să asigure dezvoltarea sustenabila a acestei categorii de producători agricoli."
       ]
     },
     "secondaryObjectives": {
-      "title": "Obiective secundare",
-      "items": [
-        "Documentarea privind inventarierea bioresurselor animaliere locale, respectiv procesarea ulterioară a acestor informații printr-un software logistic ce urmează a fi dezvoltat în urma cercetărilor realizate prin analiza de laborator asupra bioresurselor inventariate.",
-        "Obținerea de produse și preparate din lapte cu plusvaloare adăugată prin aditivare cu extracte concentrate de compuși bioactivi și aromatizanți naturali care împiedică degradarea în timp și conferă însușiri senzoriale de gust și miros de tip hedonic.",
-        "Valorificarea superioară a subproduselor rezultate în urma procesării primare, prin operații complementare, generând baze pentru obținerea de furaje funcționale și fertilizanți naturali."
-      ]
+      "title": "",
+      "items": []
     },
     "finalScope": {
-      "title": "Scopul final",
-      "items": [
-        "Maximizarea profiturilor obținute de producătorii din domeniul agroalimentar față de actualele venituri rezultate prin vânzarea produselor neprelucrate.",
-        "Ridicarea nivelului profesional, ca urmare a implementării tehnologiilor avansate de prelucrare a bioresurselor și, de asemenea, posibilitatea de dezvoltare a capacităților creative și antreprenoriale pentru lansarea de noi produse competitive adresate pieței interne și internaționale.",
-        "Lărgirea orizontului de cunoaștere socio-economic, ca bază de dezvoltare sustenabilă a gospodăriilor individuale.",
-        "Exemplificarea concretă și stimularea în extinderea categoriilor de bioresurse care pot genera venituri realizate prin prelucrarea inovativă.",
-        "Stimularea pentru achiziția de utilaje noi necesare procesării bioresurselor locale.",
-        "Preluarea de către specialiști a rezultatelor proiectului în baza transferului tehnologic."
-      ]
+      "title": "",
+      "items": []
     }
   },
   "partners": {
-    "title": "Partenerii Noștri",
-    "description": "Partenerii proiectului și contribuțiile lor.",
+    "title": "",
+    "description": "",
     "lider": {
-      "title": "Lider de parteneriat LACTAPROD OAS COPERATIVA AGRICOLA",
-      "paragraphs": [
-        "Lider de parteneriat LACTAPROD OAS COPERATIVA AGRICOLA din Tur, punct de lucru Certeze.",
-        "Cooperativa agricolă LACTAPROD Oaș este o enitate juridică formată dintr-un număr de 11 membri cooperatori avand ca si obiect principal de activitate “procesarea produselor lactate si a brnzeturilor”. Principalul obiectiv al cooperativei este legat de crearea de condiții pentru procesarea laptelui, obținerea de produse alimentare finite naturale, fara conservanti, la calitatea standardelor UE de piață."
-      ]
+      "title": "",
+      "paragraphs": []
     },
     "partener1": {
-      "title": "Partener 1 – NUTRACEUTICAL SRL (Sacele, Brașov)",
-      "intro": "Partener 1 Societatea NUTRACEUTICAL SRL, cu sediul in Sacele, judetul Brasov, are o bogata experienta in activitatile practice de cercetare-dezvoltare inovare si transfer tehnologic, participand la derularea si implementarea unor proiecte interne si internationale:",
-      "projects": [
-        "“Cercetare si productie in domeniul plantelor medicinale, fructelor de padure si legumelor” - RICOP/Nutraceutical 2004-2007, prin care s-a urmarit crearea si punerea pe piata a unor produse noi realizate din materii prime produse, mai ales in Romania, urmarindu-se folosirea unor metode de procesare noninvazive care urmareau pastrarea nealterata a substantelor active acumulate in plantele medicinale, fructele de padure si legume.",
-        "“SAFFIC – Methodologies for implementing International Standards for Saffron Purity and Quality” – proiect al unui consortiu international din care a facut parte si NUTRACEUTICAL SRL 2006-2009, care a urmarit atat imbunatatirea metodelor de productie a sofranului, cel mai scump condiment de pe piata mondiala, cat si identificarea unor compusi specifici unici si stabilirea unor metode facile de determinare a acestora pentru a putea determina falsurile din piata specifica si stimularea culturilor bio din aceasta specie valoroasa atat din punct de vedere condimentar cat si medicinal.",
-        "“ENERGOFORT – Cercetari avansate privind obtinerea de compusi bioprotectivi cu insusiri revigorante, in situatiile de criza, procesati din resurse autohtone” - 2006-2008 – consortiu romanesc prin care s-au pus la punct metode de extractie rapida a substantelor bioactive, urmata de utilizarea acestora in suplimente alimentare.",
-        "“IMS - Identificarea de noi resurse cu potential competitiv intern si international in contextul dezvoltarii durabile si conservarii biodiversitatii, prin utilizarea genotipurilor valoroase din specia Gentiana lutea L. obtinute “in vitro” - 2006-2008, proiect in consortiu cu Universitatea Lucian Blaga” din Sibiu, prin carea s-a urmarit introducerea in cultura a genotipurilor obtinute “in vitro” din Gentiana lutea, specie pe cale de disparitie din flora spontana montana din Romania, ocrotita si declarata “monument al naturii” dar si o sursa valoroasa de compusi bioprotectivi cu proprietati medicinale.",
-        "“TECHeese – SOLVING THE TECHNOLOGICAL PROBLEMS OF SHEEP CHEESE PRODUCTION” - 2010-2012 – proiect international din care a facut parte si NUTRACEUTICAL, care a cercetat influienta introducerii unor plante medicinale si aromatice in hrana oilor asupra productiei si calitatii laptelui, carnii si starii de sanatate a acestora. De asemenea s-a studiat posibilitatea utilizarii uleiurilor esentiale in obtinerea unor sortimente noi de branzeturi aromate."
-      ],
-      "involvement": [
-        "Partenerul 1 s-a implictat in activitatea de cercetare produse lactate. Membrii echipei de cercetare s-au deplasat in zona beneficiarilor proiectului pentru a se documenta asupra resurselor existente de lapte, produse vegetale, produse ale stupului (polen, miere, propolis etc.), care au fost folosite în proporţii reduse ca si ingrediente în produsele pe bază.",
-        "Mostre din materiile prime recoltate in diferite faze de dezvoltare din zona cat si cele puse la dispozitie de fermierii parteneri au fost analizate si procesate prin diferite metode de laborator (cat mai apropiate de metodele ce se vor implementa in productie) urmarind apoi realizarea unor produse finite cat mai diversificate ce vor include materii prime de origine animala, vegetala si produse ale stupului."
-      ],
-      "processing": "Pentru aditivarea si innobilarea produselor animaliere din lapte s-au folosit diferite extracte de plante recoltate din zona beneficiarilor. Extractele s-au realizat prin metode de extractie rapida sub presiune si temperatura controlata, prin extractia in fluide la presiune subcritica, prin extractia cu vapori de apa sub vid si prin extractia in camp ultrasonic. O activitate importanta a fost elaborarea retetelor inovative, care s-au facut respectand metodele traditionale de procesare a laptelui, insotite de faze ale procesarii ce se vor realiza in camp ultrasonic pentru o armonizare a gustului, texturii, uniformitatii, delicatetii si mirosului produselor finite sanogene cu o valoare nutritiva innobilata ce inglobeaza multitudinea substantelor bioactive deosebit de valoroase din „Mândra şi Binecuvantata Ţara a Oaşului”."
+      "title": "",
+      "intro": "",
+      "projects": [],
+      "involvement": [],
+      "processing": ""
     },
     "partener2": {
-      "title": "Partener 2 – MNA PRODCOM IMPEX SRL",
-      "intro": [
-        "Partener 2 SC MNA PRODCOM IMPEX SRL",
-        "Societatea SC MNA Prodcom Impex SRL, specializată în activităţi de cercetare-dezvoltare inovare și transfer tehnologic, a elaborat propuneri de proiecte la secţiunea „Agricultura, siguranţa şi securitatea alimentară“ întrunind aprecierea evaluatorilor UEFISCDI, fiindu-i finanțate două proiecte cu care a participat la compeţia ,,Cecuri de Inovare 2012‘‘."
-      ],
-      "projects": [
-        "„Alimente funcţionale concentrate în compuşi bioactivi procesate din resurse ecologice“ (65CI/27.06.2012), prin care s-a urmărit obţinerea următoarelor obiective: elaborarea de modele conceptuale în scopul realizării produselor ecologice cu potenţial sanogen relevant; analiza fizico-chimică şi stereostructurală a unor resurse, pentru produse ecologice cu înaltă densitate nutraceutică; definirea procedeelor de procesare a resurselor ecologice adecvate realizării produselor cu însuşiri revigorante, detoxifiante şi alcalinizante; producţia la nivel de micropilot a unor eşantioane reprezentative sub aspect nutraceutic şi senzorial.",
-        "„Uleiuri aromatizate bioprotective cu utilizări fitoterapeutice şi alimentare“ (146CI/11.09.2012) prin care s-a urmărit obţinerea următoarelor obiective: elaborarea modelelor conceptuale de obţinere a uleiurilor aromatizate; realizarea de produse inovative din resurse oleaginoase cu nivel ridicat în acizi graşi mono şi polinesaturaţi (ω3, ω6, ω9) aditivate cu uleiuri esenţiale volatile, aromatizante, revigorante şi energizante; realizarea unor sortimente cu înalt potenţial sanogen cu posibilităţi de comercializare profitabile; implementarea informaţiilor situate în prezent la frontierea cunoaşterii ştiinţifice de către echipa furnizorului."
-      ],
-      "involvement": [
-        "Parnerul 2 s-a implicat in activitatea de cercetare resurse locale plecand de la inventarierea resurselor animaliere si retetelor de preparare traditionala a produselor din lapte care in combinatie cu alte resurse locale identificate pe parcursul proiectului si a rezultatul cercetarii, a realizat produse noi.",
-        "Caracterul inovativ al proiectului este asigurat de procesari traditionale optimizate prin rezutatele cercetarii cu posibilitati multimple de diversificare si crestere a calitatii nutritionale a acestora. Proiectul vizeaza inovarea de produs care se regaseste in:"
-      ],
-      "innovationTitle": "-",
-      "innovationItems": [
-        "pregatirea esantioanelor de produse animaliere in vederea aprecierii insusirilor senzoriale superioare datorata furajarii. Aspectele inovative care au fost integrate în proiect, vizeaza obtinerea de produse animaliere cu potential nutraceutic superior consecutiv utilizarii in hrana accestora a unor furaje functionale, detinatoare de principi active cu impact sanogen bioprotectiv si insusiri senzoriale atractive si combinarea lor cu aditivi vegetali proveniti din extractii inovative."
-      ]
+      "title": "",
+      "intro": [],
+      "projects": [],
+      "involvement": [],
+      "innovationTitle": "",
+      "innovationItems": []
     }
   },
   "budget": {
@@ -131,8 +97,8 @@
     }
   },
   "contact": {
-    "title": "Contactează-ne",
-    "description": "Pentru mai multe informații despre proiectul nostru de cercetare.",
+    "title": "",
+    "description": "",
     "form": {
       "name": "Nume",
       "email": "Email",
@@ -156,10 +122,7 @@
       "duration": "Durată",
       "year": "Anul"
     },
-    "aboutText": {
-      "description1": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ este o organizație dedicată cercetării și dezvoltării tehnologiilor inovatoare în industria lactatelor.",
-      "description2": "Colaborăm cu parteneri specializați pentru a dezvolta soluții durabile și eficiente în domeniul tehnologiilor alimentare."
-    }
+    "aboutText": { "description1": "", "description2": "" }
   },
   "footer": {
     "address": "Adresă",
@@ -175,26 +138,14 @@
     "readLess": "Citește mai puțin"
   },
   "products": {
-    "introTitle": "Produse inovative obținute în urma cercetărilor:",
-    "telemea": {
-      "title": "Telemea de bivoliță cu ulei esențial",
-      "desc": "Laptele de bivoliță reprezintă o sursă excepțională de nutrienți esențiali, având un conținut superior de proteine, calciu și grăsimi sănătoase în comparație cu laptele de vacă. Acest tip de lapte oferă numeroase beneficii pentru sănătate, de la întărirea sistemului osos până la îmbunătățirea imunității. Conținutul bogat în antioxidanți și vitamine face din laptele de bivoliță o alegere excelentă pentru menținerea unei stări optime de sănătate.\nLaptele de bivoliță conține mai puțin colesterol și sodiu decât laptele de vacă, fiind astfel o opțiune mai sănătoasă pentru persoanele care urmăresc o dietă echilibrată. Textura sa cremoasă și consistența densă îl recomandă pentru prepararea produselor lactate tradiționale precum telemeaua. Prezenta uleiurilor esentiale da un plus de savoare dar contribuie si la cresterea proprietatilor sanogene ale produsului. Cele mai utilizate uleiuri esentiale folosite la obtinerea branzeturilor sunt: menta, rozmarinul, busuiocul și cimbru."
+    "introTitle": "",
+    "blueberry": {
+      "title": "Jeleu de afine îmbogățit în resveratrol",
+      "desc": "Afinele sunt considerate de către nutriționiști un fel de super fructe cu puteri de vindecare excelente. Având un conținut scăzut de calorii, dar un conținut compact de nutrienți, afinele sunt fructele pe care ar trebui să le consumăm în fiecare zi pentru a ne bucura de o sănătate optimă. Având vitamina K în procent de 35%, afinele sunt o sursă bogată din această vitamină solubilă în grăsimi. Vitamina K este esențială pentru sănătatea oaselor și a inimii și este, de asemenea, o parte vitală a altor procese ale corpului. Dovezile medicale au evidențiat că vitamina K este importantă în combinație cu vitamina D, iar dacă aveți o deficiență în una din aceste vitamine, niciuna nu va funcționa în cel mai bun mod în organism"
     },
-    "ghee": {
-      "title": "Unt clarifiat (ghee) din lapte de bivoliță cu ulei esențial",
-      "desc": "Untul clarificat se obtine prin separarea partilor lichide si solide ale untului prin fierbere si eliminarea masei proteice a laptelui. Acest fapt face untul clarificat foarte util pentru persoanele care au intoleranta la lactoza. Este bine de stiut ca untul clarificat are un punct de ardere mult mai ridicat, ceea ce il face potrivit pentru prajit.\nPe langa utilitatea de necontestat pe care o are in bucatarie, acest tip de unt este folosit din cele mai vechi timpuri in ayurveda (medicina traditionala indiana), avand numeroase efecte pozitive asupra sanatatii. Untul clarificat ajuta la protejarea vederii, a sistemului nervos, a digestiei, imbunatatind memoria, continand numeroase vitamine, dar si antioxidanti. La fel ca si alte branzeturi, acesta poate fi imbunatatit cu diferite uleiuri esentiale."
-    },
-    "yogurt": {
-      "title": "Iaurt cu arome naturale și resveratrol",
-      "desc": "Iaurtul este un aliment valoros cu numeroase beneficii pentru sănătate, în special pentru digestie și imunitate. Multe dintre aceste beneficii se datorează probioticele din iaurt, ce ajută la reglarea tranzitului intestinal, la fortificarea sistemului imunitar și la prevenirea anumitor boli dintre care osteoporoza, bolile de inima, obezitate.\nResveratrolul are numeroase beneficii pentru sănătate, printre care se numără proprietățile sale antioxidante și anti-inflamatoare. Acest compus poate ajuta la prevenirea bolilor cronice, cum ar fi cancerul, bolile cardiovasculare și diabetul. Ca si arome naturale se vor folosi aromele fructelor de padure atat de prezenta in arealul Tarii Oasului."
-    },
-    "cheese": {
-      "title": "Brânză de bivoliţă cu arome naturale și resveratrol",
-      "desc": "Beneficiile consumului de branza de bivoliță:\nStudiile sugerează că laptele de bivoliță poate avea multiple beneficii pentru sănătate.\n- Poate susține sănătatea oaselor (bogat în calciu și peptide).\n- Poate oferi activitate antioxidantă (vitamine A, E și compuși bioactivi).\n- Poate îmbunătăți sănătatea inimii (beta-lactoglobulina și potasiu pentru reducerea tensiunii arteriale)."
-    },
-    "whey": {
-      "title": "Băutură proteică din zer de bivoliţă și resveratrol",
-      "desc": "Italienii au un proverb care s-a pastrat inca din secolul XVI: „Daca toata lumea ar fi hranita cu zer, doctorii ar da faliment\". Zerul, acel lichid galben, acru si usor tulbure, care ramane in urma prepararii branzeturilor, contine substante hranitoare, aceleasi pe care le are si laptele, insa mai putine grasimi. Este bogat in vitaminele din complexul B, calciu, potasiu si iod. Proteinele din zer contin cea mai mare concentratie de aminoacizi.\nZerul contine acid orotic numit si vitamina B13, care ajuta la scaderea colesterolului, protejeaza flora intestinala, previne imbatranirea precoce, unele tulburari hepatice, combatand anemia. Fixeaza magneziu la nivel celular si creste valoarea energetica a celulelor inimii marind astfel rezistenta la efort si stres.\nTerapia cu zer este recomandata si celor care sufera de alte afectiuni precum: artroza, hipertensiune arteriala, colita, cistita sau spasmofilie. Este cunoscut pentru actiunea sa de topire a grasimilor fiind recomandat in curele de slabire. Proteinele din acest aliment imbunatatesc absorbtia calciului si ajuta la prevenirea osteoporozei."
+    "honey": {
+      "title": "Miere cremă cu pulpă de coacăze negre și extract de iulișcă",
+      "desc": "Produsul este sub formă de cremă obținut prin omogenizarea unor extracte naturale din plante, a unor condimente aromatice, cu miere de albine, fructoză, pentru ameliorarea stărilor de anxietate și a stresului, calmarea emoțiilor în situații stresante, precum și menținerea sănătății funcțiilor cognitive. Mierea reprezintă unul dintre cele mai apreciate produse naturale introduse omenirii încă din cele mai vechi timpuri. Mierea este întrebuințată nu doar ca produs alimentar, ci și în sănătate (medicina tradițională), respectiv ca tratament alternativ, naturist."
     }
   },
   "common": {

@@ -1,15 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { useLactaprodInfo } from '../context/SiteContext';
 import LanguageSwitcher from './LanguageSwitcher';
-import headerImage from '../Img/Header.png';
-import logoImage from '../Img/Logo.png';
+// Header background image removed for template cleanliness
+// Logo removed for clean template
 
 const Header = () => {
   const { t } = useTranslation();
-  const lactaprodInfo = useLactaprodInfo();
-  const menuItems = lactaprodInfo.menuItems;
 
   const [isMobileOpen, setIsMobileOpen] = useState(false);
 
@@ -18,18 +15,7 @@ const Header = () => {
   return (
     <header className="bg-white dark:bg-gray-800 shadow-lg border-b border-gray-100 dark:border-gray-700">
       {/* Global header image banner - above all content */}
-      <div 
-        className="w-full overflow-hidden bg-white"
-        style={{
-          backgroundImage: `url(${headerImage})`,
-          backgroundSize: 'contain',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          height: '110px'
-        }}
-        aria-label="Site header image"
-        role="img"
-      />
+      <div className="w-full overflow-hidden bg-white h-[80px]" aria-hidden="true" />
 
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
@@ -40,7 +26,7 @@ const Header = () => {
 
           {/* Logo + Brand */}
           <div className="flex items-center space-x-3 group cursor-pointer">
-            <img src={logoImage} alt="Logo" className="h-12 w-auto object-contain" />
+            <div className="h-12 w-12 bg-gray-200 dark:bg-gray-700 rounded" aria-hidden="true" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800 dark:text-white group-hover:text-primary transition-colors duration-300">
                 {t('header.companyName')}
