@@ -1,0 +1,115 @@
+{
+  "nav": { "home": "Acasă", "products": "Produse", "project": "Proiect", "partners": "Parteneri", "contact": "Contact" },
+
+  "home": {
+    "heroTitle": "PROCESAREA INTEGRATIVĂ AVANSATĂ A BIORESURSELOR VEGETALE ÎN SCOPUL OBȚINERII DE PRODUSE NATURALE INOVATIVE LA NIVELUL CERINȚELOR CALITATIVE ALE UE",
+    "heroSub": "Obiectiv principal: obținerea de noi sortimente tradiționale inovative din bioresurse vegetale, prin aditivare cu compuși bioactivi și aromatizanți naturali, dezvoltarea competențelor profesionale și creșterea beneficiilor socio-economice pentru micii fermieri.",
+    "ctaProducts": "Vezi produsele",
+    "ctaContact": "Contactează-ne",
+
+    "scopulTitle": "Scopul proiectului",
+    "scopulCards": [
+      "Maximizarea profiturilor producătorilor agroalimentari față de vânzarea produselor neprelucrate.",
+      "Ridicarea nivelului profesional prin tehnologii avansate de prelucrare și dezvoltarea capacităților creative/antreprenoriale.",
+      "Lărgirea orizontului de cunoaștere socio-economică pentru dezvoltarea sustenabilă a gospodăriilor individuale.",
+      "Extinderea categoriilor de bioresurse valorificabile prin prelucrare inovativă.",
+      "Stimularea achiziției de utilaje noi pentru procesarea bioresurselor locale.",
+      "Transferul tehnologic al rezultatelor către specialiști."
+    ],
+    "rezultateTeaser": "În urma cercetării au fost obținute produse sanogene pe bază de fructe și miere, îmbogățite cu compuși bioactivi."
+  },
+
+  "products": {
+    "pageTitle": "Produse dezvoltate în proiect",
+    "items": [
+      {
+        "slug": "jeleu-zmeura-resveratrol",
+        "title": "Jeleu de zmeură îmbogățit în resveratrol",
+        "excerpt": "Aromat, nutritiv, indice glicemic scăzut.",
+        "benefits": [
+          "Bogată în vitamine și minerale (C, K, E, B, magneziu, cupru, fier, potasiu).",
+          "Indice glicemic scăzut; sprijină reglarea glicemiei.",
+          "Favorizează digestia lentă, reducând creșterile rapide ale zahărului."
+        ],
+        "body": "Zmeura este un fruct parfumat și hrănitor, cu puține calorii și bogat în micronutrienți. Conținutul scăzut de zahăr și indicele glicemic mic o fac o alegere potrivită pentru controlul glicemiei."
+      },
+      {
+        "slug": "jeleu-coacaze-resveratrol",
+        "title": "Jeleu de coacăze îmbogățit în resveratrol",
+        "excerpt": "Jeleu gelificat din fructe, bogat în compuși bioactivi.",
+        "benefits": [
+          "Pot efect antiinflamator.",
+          "Susțin sănătatea inimii (tensiune, colesterol).",
+          "Îmbunătățesc digestia."
+        ],
+        "body": "Produs gelificat obținut din sucuri/markuri de fructe, zahăr, acizi și pectină. Coacăzele au profil nutritiv bogat și compuși bioactivi valoroși."
+      },
+      {
+        "slug": "jeleu-afine-resveratrol",
+        "title": "Jeleu de afine îmbogățit în resveratrol",
+        "excerpt": "Super-fruct bogat în vitamina K.",
+        "benefits": [
+          "Sprijină sănătatea oaselor și a inimii.",
+          "Conținut nutritiv ridicat cu puține calorii.",
+          "Vitamina K funcționează sinergic cu vitamina D."
+        ],
+        "body": "Afinele sunt considerate super-fructe: densitate nutritivă mare și aport caloric redus. Vitamina K joacă rol esențial pentru oase și sistemul cardiovascular."
+      },
+      {
+        "slug": "miere-crema-coacaze-iulisca",
+        "title": "Miere cremă cu pulpă de coacăze negre și extract de iulișcă",
+        "excerpt": "Blend natural pentru echilibru emoțional.",
+        "benefits": [
+          "Ameliorează stările de anxietate și stres.",
+          "Calmează emoțiile în situații tensionate.",
+          "Susține sănătatea funcțiilor cognitive."
+        ],
+        "body": "Produs obținut prin omogenizarea extractelor naturale și condimentelor aromatice cu miere/fructoză, destinat stării de bine și susținerii funcțiilor cognitive."
+      }
+    ]
+  },
+
+  "project": {
+    "title": "Proiect",
+    "obiectivPrincipalTitle": "Obiectivul principal",
+    "obiectivPrincipalBody": "Obținerea de noi sortimente tradiționale inovative din bioresurse vegetale, prin aditivare cu compuși bioactivi și aromatizanți naturali, dezvoltând competențe și creșterea beneficiilor socio-economice pentru micii fermieri.",
+    "obiectiveSecTitle": "Obiective secundare",
+    "obiectiveSecList": [
+      "Inventarierea bioresurselor vegetale locale și procesarea datelor într-un software logistic bazat pe analize de laborator.",
+      "Obținerea de produse/preparate lactate cu plusvaloare prin aditivare cu extracte concentrate de compuși bioactivi și aromatizanți naturali.",
+      "Valorificarea superioară a subproduselor prin condiționare: baze pentru furaje funcționale și fertilizanți naturali."
+    ],
+    "programFinantareTitle": "Program & finanțare",
+    "programFinantare": {
+      "program": "PNDR 2014–2020",
+      "submasura": "Submăsura 19.2 – Sprijin pentru implementarea acțiunilor în cadrul SDL",
+      "masura": "Măsura 1/1A – SDL Țara Oașului",
+      "contract": "Contract de finanțare nr. 1920161X107063208762 / 04.08.2022"
+    },
+    "rezultateTitle": "Rezultatele cercetării",
+    "rezultateIntro": "Au fost obținute produse sanogene pe bază de fructe și miere, îmbogățite cu compuși bioactivi."
+  },
+
+  "partners": {
+    "title": "Parteneri",
+    "list": [
+      { "name": "Valea Olprețului Cooperativa Agricolă", "role": "Lider de proiect", "logo": "/images/parteneri/valea-olpretului.png" },
+      { "name": "NUTRACEUTICAL SRL", "role": "Partener cercetare", "logo": "/images/parteneri/nutraceutical.png" },
+      { "name": "MNA IMPEX SRL", "role": "Partener cercetare", "logo": "/images/parteneri/mna-impex.png" }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact",
+    "intro": "Scrie-ne sau vizitează-ne la punctul de lucru.",
+    "addressLabel": "Adresă",
+    "address": "loc. Razbuneni, Nr. 26, comuna Boblna",
+    "workPointLabel": "Punct de lucru",
+    "workPoint": "Punct de lucru: sat Valcelele",
+    "countyLabel": "Județ",
+    "county": "Județ: Cluj",
+    "emailLabel": "E-mail",
+    "email": "valeaolpretului@gmail.com",
+    "button": "Trimite e-mail"
+  }
+}
