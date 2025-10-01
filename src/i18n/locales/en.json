@@ -23,12 +23,10 @@
     }
   },
   "products": {
-    "1": { "title": "Golden Delicious Apples", "description": "Fresh, crisp and sweet apples" },
-    "2": { "title": "Conference Pears", "description": "Aromatic and juicy pears" },
-    "3": { "title": "Stanley Plums", "description": "Large, sweet plums, perfect for jam" },
-    "4": { "title": "Bing Cherries", "description": "Large, red, very sweet cherries" },
-    "5": { "title": "Strawberries", "description": "Fresh, aromatic and sweet strawberries" },
-    "6": { "title": "Raspberries", "description": "Garden raspberries, very aromatic" }
+    "1": { "title": "Raspberry jelly enriched with resveratrol", "description": "Raspberry is a fragrant, nutritious, and tasty fruit, low in calories and rich in vitamins and minerals. It contains antioxidants and has a low glycemic index, helping regulate blood sugar." },
+    "2": { "title": "Blackcurrant jelly enriched with resveratrol", "description": "A gelified product from concentrated fruit. Blackcurrants reduce inflammation, support heart health, and improve digestion due to antioxidants and bioactive compounds." },
+    "3": { "title": "Blueberry jelly enriched with resveratrol", "description": "Blueberries are superfruits packed with nutrients and vitamin K, important for heart and bone health. They support immunity and overall wellbeing." },
+    "4": { "title": "Cream honey with blackcurrant pulp and yulisca extract", "description": "A cream made from honey and natural extracts, beneficial for reducing stress, calming emotions, and maintaining cognitive functions." }
   },
   "cart": {
     "title": "Shopping Cart",
@@ -54,7 +52,7 @@
   },
   "contact": {
     "title": "Contact Us",
-    "description": "For more information about our cooperative and research project.",
+    "description": "For information and collaborations, contact us using the details below.",
     "sections": {
       "contactInfo": "Contact Information",
       "address": "Address",
@@ -66,10 +64,49 @@
       "duration": "Duration",
       "year": "Year"
     }
+    ,
+    "infoBlock": {
+      "title": "Contact details:",
+      "lines": [
+        "Address: Razbuneni, No. 26, Bobâlna commune,",
+        "Work point: Valcelele village",
+        "County: Cluj",
+        "E-mail: valeaolpretului@gmail.com"
+      ]
+    }
   },
   "about": {
     "title": "About Us",
     "description": "We innovate and collaborate to bring quality agricultural products to our community.",
+    "newContent": {
+      "purpose": {
+        "title": "Purpose",
+        "items": [
+          "maximizing the profits obtained by agri-food producers compared to current revenues from selling unprocessed products;",
+          "raising the professional level through the implementation of advanced bioresource processing technologies, as well as developing creative and entrepreneurial skills for launching new competitive products aimed at domestic and international markets;",
+          "broadening the socio-economic knowledge base as a foundation for the sustainable development of individual households;",
+          "concrete exemplification and encouragement of expanding the categories of bioresources that can generate income through innovative processing;",
+          "encouraging the acquisition of new equipment needed for processing local bioresources;",
+          "adoption of project results by specialists through technology transfer."
+        ]
+      },
+      "mainObjective": {
+        "title": "Main Objective",
+        "text": "obtaining new innovative traditional assortments from plant bioresources by adding bioactive compounds and natural flavorings, alongside developing professional skills and increasing socio-economic benefits for small farmers, ensuring sustainable development for this category of agricultural producers."
+      },
+      "secondaryObjectives": {
+        "title": "Secondary Objectives",
+        "items": [
+          "Documenting the inventory of local plant bioresources, followed by processing this information with a logistic software to be developed from research and laboratory analysis of the inventoried bioresources.",
+          "Obtaining high value-added dairy products and preparations by adding concentrated extracts of bioactive compounds and natural flavorings that prevent degradation over time and provide hedonic taste and smell characteristics.",
+          "Superior capitalization of by-products from primary processing through complementary conditioning operations, resulting in both bases for functional feed and natural fertilizers."
+        ]
+      },
+      "researchResults": {
+        "title": "Research Results",
+        "intro": "Following the research carried out, the following health-promoting products were obtained:"
+      }
+    },
     "objectives": {
       "title": "Project Objectives",
       "items": [

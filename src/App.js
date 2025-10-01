@@ -16,7 +16,14 @@ import SocialMediaLinks from './components/SocialMediaLinks';
 import ProductPage from './components/ProductPage';
 import CartPage from './components/CartPage';
 import LiveCart from './components/LiveCart';
+import { useCart } from './context/CartContext';
 import GDPRPage from './components/GDPRPage';
+
+function ConditionalLiveCart() {
+  const { items } = useCart();
+  if (!items || items.length === 0) return null;
+  return <LiveCart />;
+}
 
 function App() {
   return (
@@ -41,7 +48,7 @@ function App() {
                 </Routes>
               </main>
               <SocialMediaLinks />
-              <LiveCart />
+              <ConditionalLiveCart />
             </div>
           </CartProvider>
         </LanguageProvider>

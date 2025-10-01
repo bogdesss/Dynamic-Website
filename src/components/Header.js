@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useValeOlpretuluiInfo } from '../context/SiteContext';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
+import BannerImage from '../img/Caseta-Afir.png';
 
 const Header = () => {
   const valeOlpretuluiInfo = useValeOlpretuluiInfo();
@@ -18,6 +19,14 @@ const Header = () => {
 
   return (
     <header className="bg-white dark:bg-gray-800 shadow-lg border-b border-gray-100 dark:border-gray-700">
+      {/* Top banner above the menu */}
+      <div className="w-full flex justify-center">
+        <img 
+          src={BannerImage} 
+          alt="Top banner" 
+          className="h-12 md:h-16 lg:h-20 w-auto object-contain"
+        />
+      </div>
       <div className="container mx-auto px-4 py-4">
         <nav className="flex justify-between items-center">
           {/* Modern Logo/Brand Section */}

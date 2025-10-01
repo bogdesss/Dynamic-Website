@@ -23,12 +23,10 @@
     }
   },
   "products": {
-    "1": { "title": "Mere Golden Delicious", "description": "Mere proaspete, crocante și dulci" },
-    "2": { "title": "Pere Conference", "description": "Pere aromate și suculente" },
-    "3": { "title": "Prune Stanley", "description": "Prune mari și dulci, perfecte pentru dulceață" },
-    "4": { "title": "Cireșe Bing", "description": "Cireșe mari și roșii, foarte dulci" },
-    "5": { "title": "Căpșuni", "description": "Căpșuni proaspete, aromate și dulci" },
-    "6": { "title": "Zmeură", "description": "Zmeură de grădină, foarte aromată" }
+    "1": { "title": "Jeleu de zmeură îmbogăţit în resveratrol", "description": "Zmeura este un fruct parfumat, hrănitor și foarte bun la gust, cu puține calorii și bogat în vitamine și minerale. Conține antioxidanți și are un indice glicemic scăzut, ajutând la reglarea zahărului din sânge." },
+    "2": { "title": "Jeleu de coacăze îmbogăţit în resveratrol", "description": "Produs gelificat obținut din fructe concentrate. Coacăzele reduc inflamația, îmbunătățesc sănătatea inimii și digestia datorită antioxidanților și compușilor bioactivi." },
+    "3": { "title": "Jeleu de afine îmbogăţit în resveratrol", "description": "Afinele sunt super-fructe bogate în nutrienți și vitamina K, importante pentru sănătatea inimii și oaselor. Susțin imunitatea și sănătatea generală." },
+    "4": { "title": "Miere cremă cu pulpă de coacăze negre și extract de iulișcă", "description": "Cremă obținută din miere și extracte naturale, utilă pentru ameliorarea stresului, anxietății și menținerea funcțiilor cognitive." }
   },
   "cart": {
     "title": "Coșul de cumpărături",
@@ -54,7 +52,7 @@
   },
   "contact": {
     "title": "Contactează-ne",
-    "description": "Pentru mai multe informații despre cooperativă și proiectul de cercetare.",
+    "description": "Pentru informații și colaborări, ne poți contacta folosind detaliile de mai jos.",
     "sections": {
       "contactInfo": "Informații de Contact",
       "address": "Adresă",
@@ -66,10 +64,49 @@
       "duration": "Durată",
       "year": "Anul"
     }
+    ,
+    "infoBlock": {
+      "title": "Date de contact:",
+      "lines": [
+        "Adresa: loc. Razbuneni, Nr. 26, comuna Bobâlna,",
+        "Punct de lucru sat Valcelele",
+        "Jud. Cluj",
+        "E-mail: valeaolpretului@gmail.com"
+      ]
+    }
   },
   "about": {
     "title": "Despre Noi",
     "description": "Inovăm și colaborăm pentru a aduce comunității produse agricole de calitate.",
+    "newContent": {
+      "purpose": {
+        "title": "Scopul",
+        "items": [
+          "maximizarea profiturilor obținute de producătorii din domeniul agroalimentar faţă de actualele venituri rezultate prin vânzarea produselor neprelucrate;",
+          "ridicarea nivelului profesional, ca urmare a implementării tehnologiilor avansate de prelucrare a bioresurselor şi de asemenea, posibilitatea de dezvoltare a capacităţilor creative și antreprenoriale pentru lansarea de noi produse competitive adresate pieței interne şi internaționale;",
+          "lărgirea orizontului de cunoaștere socio-economic, ca bază de dezvoltare sustenabilă a gospodăriilor individuale;",
+          "exemplificarea concretă şi stimularea, în extinderea categoriilor de bioresurse care pot genera venituri realizate prin prelucrarea inovativă;",
+          "stimularea pentru achiziția de utilaje noi necesare procesării bioresurselor locale;",
+          "preluarea de către specialişti a rezultatelor proiectului în baza transferului tehnologic."
+        ]
+      },
+      "mainObjective": {
+        "title": "Obiectivul principal",
+        "text": "obținerea de noi sortimente tradiționale inovative, din bioresurse vegetale prin aditivare cu compuși bioactivi și aromatizanți naturali, respectiv dezvoltarea competențelor profesionale, coroborată cu creșterea beneficiilor socio-economice pentru micii fermieri, care să asigure dezvoltarea sustenabilă a acestei categorii de producători agricoli."
+      },
+      "secondaryObjectives": {
+        "title": "Obiective secundare",
+        "items": [
+          "Documentarea privind inventarierea bioresurselor vegetale locale, respectiv procesarea ulterioară a acestor informații printr-un software logistic ce urmează a fi dezvoltat în urma cercetărilor realizate prin analiza de laborator asupra bioresurselor inventariate.",
+          "Obținerea de produse și preparate din lapte cu plusvaloare adăugată prin aditivare cu extracte concentrate de compuși bioactivi și aromatizanți naturali care împiedică degradarea în timp și conferă însușiri senzoriale de gust și miros de tip hedonic.",
+          "Valorificarea superioară a subproduselor rezultate în urma procesării primare, prin operațiuni complementare de condiționare rezultând pe de o parte baze pentru furaje funcționale, iar pe de altă parte fertilizanți naturali."
+        ]
+      },
+      "researchResults": {
+        "title": "Rezultatele cercetării",
+        "intro": "În urma cercetărilor efectuate, s-au obținut următoarele produse sanogene:"
+      }
+    },
     "objectives": {
       "title": "Obiectivele Proiectului",
       "items": [

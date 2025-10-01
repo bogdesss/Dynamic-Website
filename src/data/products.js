@@ -1,45 +1,40 @@
+import RaspberryImg from '../img/Raspberry.png';
+import BlackcurrantImg from '../img/blackcurrant.png';
+import BlueberryImg from '../img/Blueberry.png';
+import HoneyImg from '../img/Honey.png';
+
 export const products = [
   {
     id: 1,
-    title: "Mere Golden Delicious",
-    price: 8.50,
-    stock: "in_stock",
-    description: "Mere proaspete, crocante și dulci"
+    title: "Jeleu de zmeură îmbogăţit în resveratrol",
+    price: 0.00,
+    stock: "out_of_stock",
+    description: "Zmeura este un fruct parfumat, hrănitor și foarte bun la gust, cu puține calorii și bogat în vitamine și minerale. Conține antioxidanți și are un indice glicemic scăzut, ajutând la reglarea zahărului din sânge.",
+    image: RaspberryImg
   },
   {
     id: 2,
-    title: "Pere Conference",
-    price: 9.20,
-    stock: "low_stock",
-    description: "Pere aromate și suculente"
+    title: "Jeleu de coacăze îmbogăţit în resveratrol",
+    price: 0.00,
+    stock: "out_of_stock",
+    description: "Produs gelificat obținut din fructe concentrate. Coacăzele reduc inflamația, îmbunătățesc sănătatea inimii și digestia datorită antioxidanților și compușilor bioactivi.",
+    image: BlackcurrantImg
   },
   {
     id: 3,
-    title: "Prune Stanley",
-    price: 12.00,
-    stock: "in_stock",
-    description: "Prune mari și dulci, perfecte pentru dulceață"
+    title: "Jeleu de afine îmbogăţit în resveratrol",
+    price: 0.00,
+    stock: "out_of_stock",
+    description: "Afinele sunt super-fructe bogate în nutrienți și vitamina K, importante pentru sănătatea inimii și oaselor. Susțin imunitatea și sănătatea generală.",
+    image: BlueberryImg
   },
   {
     id: 4,
-    title: "Cireșe Bing",
-    price: 15.50,
+    title: "Miere cremă cu pulpă de coacăze negre și extract de iulișcă",
+    price: 0.00,
     stock: "out_of_stock",
-    description: "Cireșe mari și roșii, foarte dulci"
-  },
-  {
-    id: 5,
-    title: "Căpșuni",
-    price: 18.00,
-    stock: "in_stock",
-    description: "Căpșuni proaspete, aromate și dulci"
-  },
-  {
-    id: 6,
-    title: "Zmeură",
-    price: 22.00,
-    stock: "low_stock",
-    description: "Zmeură de grădină, foarte aromată"
+    description: "Cremă obținută din miere și extracte naturale, utilă pentru ameliorarea stresului, anxietății și menținerea funcțiilor cognitive.",
+    image: HoneyImg
   }
 ];
 

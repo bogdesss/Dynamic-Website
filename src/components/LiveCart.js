@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useCart } from '../context/CartContext';
 import { Link } from 'react-router-dom';
 import CustomerInfoModal from './CustomerInfoModal';
@@ -9,6 +9,37 @@ const LiveCart = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [successMessage, setSuccessMessage] = useState('');
   const { t } = useTranslation();
+  const containerRef = useRef(null);
+  const [position, setPosition] = useState({ top: 160, right: 16 }); // default lower position
+  const [isDragging, setIsDragging] = useState(false);
+  // Note: using movementX/movementY for simplicity; no offset ref needed
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      if (!isDragging) return;
+      setPosition((prev) => {
+        const newRight = Math.max(0, prev.right - e.movementX);
+        const newTop = Math.max(0, prev.top + e.movementY);
+        return { top: newTop, right: newRight };
+      });
+    };
+
+    const handleMouseUp = () => setIsDragging(false);
+
+    if (isDragging) {
+      document.addEventListener('mousemove', handleMouseMove);
+      document.addEventListener('mouseup', handleMouseUp);
+    }
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+    };
+  }, [isDragging]);
+
+  const startDrag = (e) => {
+    e.preventDefault();
+    setIsDragging(true);
+  };
 
   const handleEmailSent = (message) => {
     setSuccessMessage(message);
@@ -25,8 +56,12 @@ const LiveCart = () => {
 
   if (items.length === 0) {
     return (
-      <div className="fixed right-4 top-20 w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50">
-        <div className="text-center">
+      <div
+        ref={containerRef}
+        className="fixed w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50"
+        style={{ top: position.top, right: position.right }}
+      >
+        <div className="text-center cursor-move select-none" onMouseDown={startDrag}>
           <div className="text-gray-500 text-sm mb-2">
             🛒 {t('liveCart.empty')}
           </div>
@@ -42,8 +77,12 @@ const LiveCart = () => {
   }
 
   return (
-    <div className="fixed right-4 top-20 w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50 max-h-96 overflow-y-auto">
-      <div className="flex items-center justify-between mb-3">
+    <div
+      ref={containerRef}
+      className="fixed w-80 bg-white rounded-lg shadow-lg border border-gray-200 p-4 z-50 max-h-96 overflow-y-auto"
+      style={{ top: position.top, right: position.right }}
+    >
+      <div className="flex items-center justify-between mb-3 cursor-move select-none" onMouseDown={startDrag}>
         <h3 className="text-lg font-semibold text-gray-900">
           {t('liveCart.yourCart')} ({getTotalItems()})
         </h3>

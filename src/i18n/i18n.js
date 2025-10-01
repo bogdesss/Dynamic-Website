@@ -17,7 +17,8 @@ i18n
     resources,
     fallbackLng: 'ro',
     interpolation: { escapeValue: false },
-    detection: { order: ['localStorage', 'navigator', 'htmlTag'], caches: ['localStorage'] }
+    detection: { order: ['localStorage', 'navigator', 'htmlTag'], caches: ['localStorage'] },
+    lng: 'ro'
   });
 
 export default i18n;
