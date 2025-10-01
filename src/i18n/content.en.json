@@ -1,0 +1,115 @@
+{
+  "nav": { "home": "Home", "products": "Products", "project": "Project", "partners": "Partners", "contact": "Contact" },
+
+  "home": {
+    "heroTitle": "ADVANCED INTEGRATIVE PROCESSING OF PLANT BIORESOURCES TO OBTAIN NATURAL INNOVATIVE PRODUCTS AT EU QUALITY STANDARDS",
+    "heroSub": "Main objective: to obtain new innovative traditional assortments from plant bioresources by adding bioactive compounds and natural flavorings, developing professional skills and increasing socio-economic benefits for small farmers.",
+    "ctaProducts": "See products",
+    "ctaContact": "Contact us",
+
+    "scopulTitle": "Project purpose",
+    "scopulCards": [
+      "Maximize profits for agri-food producers compared to selling unprocessed goods.",
+      "Raise professional level through advanced processing technologies and entrepreneurial/creative capacity.",
+      "Broaden socio-economic knowledge for the sustainable development of households.",
+      "Expand categories of bioresources that can be profitably processed through innovation.",
+      "Encourage acquisition of new equipment for processing local bioresources.",
+      "Enable technology transfer of project results to specialists."
+    ],
+    "rezultateTeaser": "Research delivered health-oriented products based on fruits and honey, enriched with bioactive compounds."
+  },
+
+  "products": {
+    "pageTitle": "Products developed in the project",
+    "items": [
+      {
+        "slug": "jeleu-zmeura-resveratrol",
+        "title": "Raspberry jelly enriched with resveratrol",
+        "excerpt": "Aromatic, nutritious, low glycemic index.",
+        "benefits": [
+          "Rich in vitamins and minerals (C, K, E, B, magnesium, copper, iron, potassium).",
+          "Low GI; supports glycemic control.",
+          "Favors slower digestion, reducing sugar spikes."
+        ],
+        "body": "Raspberries are flavorful and nutritious, low in calories yet rich in micronutrients. Their low sugar and GI profile makes them suitable for blood sugar management."
+      },
+      {
+        "slug": "jeleu-coacaze-resveratrol",
+        "title": "Blackcurrant jelly enriched with resveratrol",
+        "excerpt": "Fruit-based gel jelly rich in bioactive compounds.",
+        "benefits": [
+          "Potential anti-inflammatory effect.",
+          "Supports heart health (blood pressure, cholesterol).",
+          "Improves digestion."
+        ],
+        "body": "Gelled product made from fruit juices/pulps with sugar, acids and pectin. Blackcurrants have a rich nutritional profile and valuable bioactives."
+      },
+      {
+        "slug": "jeleu-afine-resveratrol",
+        "title": "Blueberry jelly enriched with resveratrol",
+        "excerpt": "Super-fruit high in vitamin K.",
+        "benefits": [
+          "Supports bone and heart health.",
+          "High nutrient density with few calories.",
+          "Vitamin K works synergistically with vitamin D."
+        ],
+        "body": "Blueberries are considered super-fruits: nutrient-dense with low calories. Vitamin K plays an essential role for bones and the cardiovascular system."
+      },
+      {
+        "slug": "miere-crema-coacaze-iulisca",
+        "title": "Creamed honey with blackcurrant pulp and yulisca extract",
+        "excerpt": "Natural blend for emotional balance.",
+        "benefits": [
+          "Eases anxiety and stress.",
+          "Calms emotions in tense situations.",
+          "Supports cognitive functions."
+        ],
+        "body": "Obtained by homogenizing natural extracts and aromatic spices with honey/fructose, designed for well-being and cognitive support."
+      }
+    ]
+  },
+
+  "project": {
+    "title": "Project",
+    "obiectivPrincipalTitle": "Main objective",
+    "obiectivPrincipalBody": "To obtain new innovative traditional assortments from plant bioresources by adding bioactive compounds and natural flavorings, developing capabilities and increasing socio-economic benefits for small farmers.",
+    "obiectiveSecTitle": "Secondary objectives",
+    "obiectiveSecList": [
+      "Inventory local plant bioresources and process data in a logistics software built on lab analyses.",
+      "Obtain value-added dairy products/preparations by adding concentrated extracts of bioactive compounds and natural flavorings.",
+      "Superior valorization of by-products through conditioning: bases for functional feed and natural fertilizers."
+    ],
+    "programFinantareTitle": "Programme & funding",
+    "programFinantare": {
+      "program": "PNDR 2014–2020",
+      "submasura": "Sub-measure 19.2 – Support for implementing actions within the Local Development Strategy",
+      "masura": "Measure 1/1A – SDL Țara Oașului",
+      "contract": "Funding contract no. 1920161X107063208762 / 04.08.2022"
+    },
+    "rezultateTitle": "Research results",
+    "rezultateIntro": "Health-oriented products based on fruits and honey, enriched with bioactive compounds, were obtained."
+  },
+
+  "partners": {
+    "title": "Partners",
+    "list": [
+      { "name": "Valea Olprețului Agricultural Cooperative", "role": "Project leader", "logo": "/images/parteneri/valea-olpretului.png" },
+      { "name": "NUTRACEUTICAL SRL", "role": "Research partner", "logo": "/images/parteneri/nutraceutical.png" },
+      { "name": "MNA IMPEX SRL", "role": "Research partner", "logo": "/images/parteneri/mna-impex.png" }
+    ]
+  },
+
+  "contact": {
+    "title": "Contact",
+    "intro": "Write to us or visit our work point.",
+    "addressLabel": "Address",
+    "address": "Razbuneni village, No. 26, Boblna commune",
+    "workPointLabel": "Work point",
+    "workPoint": "Work point: Valcelele village",
+    "countyLabel": "County",
+    "county": "County: Cluj",
+    "emailLabel": "E-mail",
+    "email": "valeaolpretului@gmail.com",
+    "button": "Send email"
+  }
+}
