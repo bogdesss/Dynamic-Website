@@ -30,7 +30,7 @@ const ContactForm = () => {
                     </svg>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">{t('contact.sections.address')}</h4>
-                      <p className="text-gray-600 dark:text-gray-300">{lactaprodInfo.address}</p>
+                      <p className="text-gray-600 dark:text-gray-300">{t('contact.address', { defaultValue: 'Sat Certeze, Comuna Certeze, Județul Satu Mare' })}</p>
                     </div>
                   </div>
                   
@@ -40,7 +40,7 @@ const ContactForm = () => {
                     </svg>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">{t('contact.sections.phone')}</h4>
-                      <p className="text-gray-600 dark:text-gray-300">{lactaprodInfo.phone}</p>
+                      <p className="text-gray-600 dark:text-gray-300">{t('contact.phone', { defaultValue: '+40 123 456 789' })}</p>
                     </div>
                   </div>
                   
@@ -50,7 +50,7 @@ const ContactForm = () => {
                     </svg>
                     <div>
                       <h4 className="font-semibold text-gray-800 dark:text-white">{t('contact.sections.email')}</h4>
-                      <p className="text-gray-600 dark:text-gray-300">{lactaprodInfo.email}</p>
+                      <p className="text-gray-600 dark:text-gray-300">{t('contact.email', { defaultValue: 'lactaprodoas@gmail.com' })}</p>
                     </div>
                   </div>
                 </div>

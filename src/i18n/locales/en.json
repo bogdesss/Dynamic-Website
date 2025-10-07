@@ -2,8 +2,8 @@
   "header": {
     "companyName": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE",
     "menu": {
-      "home": "Home",
-      "products": "Products",
+    "home": "Home",
+    "products": "Products",
       "project": "Project",
       "partners": "Partners",
       "budget": "Budget",
@@ -131,8 +131,8 @@
     }
   },
   "contact": {
-    "title": "Contact Us",
-    "description": "For more information about our research project.",
+    "title": "Contact",
+    "description": "Write to us or visit our work point.",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -156,9 +156,14 @@
       "duration": "Duration",
       "year": "Year"
     },
+    "address": "Certeze village, Certeze commune, County: Satu Mare",
+    "workPoint": "Work point: Valcelele village",
+    "county": "County: Satu Mare",
+    "email": "lactaprodoas@gmail.com",
+    "button": "Send email",
     "aboutText": {
-      "description1": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE is an organization dedicated to research and development of innovative technologies in the dairy industry.",
-      "description2": "We collaborate with specialized partners to develop sustainable and efficient solutions in the field of food technologies."
+      "description1": "LACTAPROD OAȘ AGRICULTURAL COOPERATIVE produces and sells traditional dairy products, crafted with attention to quality and the specific character of the Oaș region.",
+      "description2": ""
     }
   },
   "footer": {

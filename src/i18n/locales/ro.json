@@ -2,8 +2,8 @@
   "header": {
     "companyName": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
     "menu": {
-      "home": "Acasă",
-      "products": "Produse",
+    "home": "Acasă",
+    "products": "Produse",
       "project": "Proiect",
       "partners": "Parteneri",
       "budget": "Buget",
@@ -157,8 +157,8 @@
       "year": "Anul"
     },
     "aboutText": {
-      "description1": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ este o organizație dedicată cercetării și dezvoltării tehnologiilor inovatoare în industria lactatelor.",
-      "description2": "Colaborăm cu parteneri specializați pentru a dezvolta soluții durabile și eficiente în domeniul tehnologiilor alimentare."
+      "description1": "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ produce și comercializează produse lactate tradiționale, realizate cu atenție la calitate și la specificul zonei Oașului.",
+      "description2": ""
     }
   },
   "footer": {
