@@ -1,18 +1,18 @@
 export const companyConfig = {
   // Company Information
-  name: "Brandgenix SRL",
-  tagline: "Digital Solutions for Your Success",
-  address: "Satu Mare, str. Wolfenbuttel, nr. 24-26, jud. Satu Mare",
+  name: "Naturivis",
+  tagline: "Inspirată de natură, creată în Transilvania",
+  address: "Transilvania, România",
   phone: "+40 123 456 789",
-  email: "contact@brandgenix.ro",
+  email: "naturivis@gmail.com",
   
   // Brand Colors
   colors: {
-    primary: '#007bff',
-    secondary: '#6c757d',
-    accent: '#28a745',
+    primary: '#0e4652',
+    secondary: '#34ab53',
+    accent: '#34ab53',
     background: '#ffffff',
-    text: '#333333',
+    text: '#000000',
     textLight: '#666666'
   },
   
@@ -36,19 +36,19 @@ export const companyConfig = {
   // Content Sections
   content: {
     hero: {
-      title: "Brandgenix SRL",
-      subtitle: "Digital Solutions for Your Success",
-      description: "We offer a wide range of digital services to ensure your digital success.",
-      ctaText: "Contact Us",
+      title: "Naturivis",
+      subtitle: "Inspirată de natură, creată în Transilvania",
+      description: "Produse agricole locale, proaspete și de calitate din Transilvania.",
+      ctaText: "Contactează-ne",
       ctaLink: "/contact"
     },
     about: {
-      title: "Prezentare Proiect",
-      description: "Brandgenix SRL oferă o gamă variată de servicii digitale pentru a vă asigura succesul digital."
+      title: "Despre Naturivis",
+      description: "Naturivis oferă produse agricole locale, proaspete și de calitate din Transilvania."
     },
     contact: {
-      title: "Contact Us",
-      description: "Get in touch with us for more information about our services."
+      title: "Contactează-ne",
+      description: "Contactează-ne pentru mai multe informații despre produsele noastre."
     }
   }
 };

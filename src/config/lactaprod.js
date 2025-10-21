@@ -1,18 +1,18 @@
 export const lactaprodConfig = {
   // Company Information
-  name: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
-  tagline: "Cercetare și Dezvoltare Inovatoare în Industria Lactatelor",
-  address: "Satu Mare, str. Wolfenbuttel, nr. 24-26, jud. Satu Mare",
+  name: "Naturivis",
+  tagline: "Inspirată de natură, creată în Transilvania",
+  address: "Transilvania, România",
   phone: "+40 123 456 789",
-  email: "contact@lactaprod.ro",
+  email: "naturivis@gmail.com",
   
-  // Brand Colors (Dairy/Agricultural theme)
+  // Brand Colors (Naturivis theme)
   colors: {
-    primary: '#2E7D32',      // Forest Green
-    secondary: '#8BC34A',    // Light Green
-    accent: '#FF9800',       // Orange
+    primary: '#0e4652',      // Dark teal
+    secondary: '#34ab53',    // Green
+    accent: '#34ab53',       // Green
     background: '#ffffff',
-    text: '#333333',
+    text: '#000000',
     textLight: '#666666'
   },
   
@@ -121,9 +121,9 @@ export const lactaprodConfig = {
   // Content Sections
   content: {
     hero: {
-      title: "LACTAPROD OAȘ COOPERATIVĂ AGRICOLĂ",
-      subtitle: "Cercetare și Dezvoltare în Industria Lactatelor",
-      description: "Proiect inovator de cercetare în domeniul tehnologiilor lactatelor, cu parteneri de încredere și buget de 114.515 EURO.",
+      title: "Naturivis",
+      subtitle: "Inspirată de natură, creată în Transilvania",
+      description: "Produse agricole locale, proaspete și de calitate din Transilvania.",
       ctaText: "Află Mai Multe",
       ctaLink: "/project"
     },

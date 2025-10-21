@@ -38,7 +38,7 @@ export const sendCartEmail = async (cartData, customerInfo) => {
       ).join('\n'),
       
       // Company info
-      company_name: 'Valea Olpretului Cooperativa Agricola',
+      company_name: 'Naturivis',
       order_date: new Date().toLocaleDateString('ro-RO'),
     };
 

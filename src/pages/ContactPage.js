@@ -17,12 +17,12 @@ const ContactPage = () => {
       <div className="grid gap-6 md:grid-cols-2">
         {contactItems.map((item) => (
           <Card key={item.key} title={item.label}>
-            <p className="mt-2 text-base text-gray-700">{item.value}</p>
+            <p className="mt-2 text-base text-gray-700 font-raleway">{item.value}</p>
             {item.isEmail && (
               <div className="mt-6">
                 <a
                   href={`mailto:${t('contact.email')}`}
-                  className="inline-flex items-center rounded-full bg-green-600 px-5 py-2 text-sm font-semibold text-white shadow hover:bg-green-700 transition-colors duration-200"
+                  className="inline-flex items-center rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white shadow hover:bg-accent/90 transition-colors duration-200"
                 >
                   {t('contact.button')}
                 </a>

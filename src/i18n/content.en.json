@@ -1,4 +1,9 @@
 {
+  "brand": {
+    "name": "Naturivis",
+    "tagline": "Inspired by nature, created in Transylvania"
+  },
+
   "nav": { "home": "Home", "products": "Products", "project": "Project", "partners": "Partners", "contact": "Contact" },
 
   "home": {
@@ -31,7 +36,8 @@
           "Low GI; supports glycemic control.",
           "Favors slower digestion, reducing sugar spikes."
         ],
-        "body": "Raspberries are flavorful and nutritious, low in calories yet rich in micronutrients. Their low sugar and GI profile makes them suitable for blood sugar management."
+        "body": "Raspberries are flavorful and nutritious, low in calories yet rich in micronutrients. Their low sugar and GI profile makes them suitable for blood sugar management.",
+        "image": "/Img/Raspberry.png"
       },
       {
         "slug": "jeleu-coacaze-resveratrol",
@@ -42,7 +48,8 @@
           "Supports heart health (blood pressure, cholesterol).",
           "Improves digestion."
         ],
-        "body": "Gelled product made from fruit juices/pulps with sugar, acids and pectin. Blackcurrants have a rich nutritional profile and valuable bioactives."
+        "body": "Gelled product made from fruit juices/pulps with sugar, acids and pectin. Blackcurrants have a rich nutritional profile and valuable bioactives.",
+        "image": "/Img/Blackcurrant.png"
       },
       {
         "slug": "jeleu-afine-resveratrol",
@@ -53,7 +60,8 @@
           "High nutrient density with few calories.",
           "Vitamin K works synergistically with vitamin D."
         ],
-        "body": "Blueberries are considered super-fruits: nutrient-dense with low calories. Vitamin K plays an essential role for bones and the cardiovascular system."
+        "body": "Blueberries are considered super-fruits: nutrient-dense with low calories. Vitamin K plays an essential role for bones and the cardiovascular system.",
+        "image": "/Img/Blueberry.png"
       },
       {
         "slug": "miere-crema-coacaze-iulisca",
@@ -64,7 +72,8 @@
           "Calms emotions in tense situations.",
           "Supports cognitive functions."
         ],
-        "body": "Obtained by homogenizing natural extracts and aromatic spices with honey/fructose, designed for well-being and cognitive support."
+        "body": "Obtained by homogenizing natural extracts and aromatic spices with honey/fructose, designed for well-being and cognitive support.",
+        "image": "/Img/CreamedHoney.png"
       }
     ]
   },
@@ -92,10 +101,44 @@
 
   "partners": {
     "title": "Partners",
+    "labels": {
+      "projects": "Projects",
+      "involvement": "Involvement",
+      "processing": "Processing",
+      "innovation": "Innovation"
+    },
     "list": [
-      { "name": "Valea Olprețului Agricultural Cooperative", "role": "Project leader", "logo": "/images/parteneri/valea-olpretului.png" },
-      { "name": "NUTRACEUTICAL SRL", "role": "Research partner", "logo": "/images/parteneri/nutraceutical.png" },
-      { "name": "MNA IMPEX SRL", "role": "Research partner", "logo": "/images/parteneri/mna-impex.png" }
+      { "name": "Naturivis", "role": "Project leader", "logo": "/img/logo.png" },
+      {
+        "name": "NUTRACEUTICAL SRL (Sacele, Brasov)",
+        "role": "Research partner",
+        "logo": "/images/parteneri/nutraceutical.png",
+        "intro": "NUTRACEUTICAL SRL has extensive experience in RDI and tech transfer, participating in national and international projects:",
+        "projects": [
+          "RICOP/Nutraceutical 2004-2007 – research and production using non-invasive processing methods to preserve active substances in medicinal plants, berries, and vegetables.",
+          "SAFFIC 2006-2009 – international consortium on saffron purity/quality standards and detection of market frauds, stimulating organic cultivation.",
+          "ENERGOFORT 2006-2008 – rapid extraction of bioactive substances and their use in food supplements.",
+          "IMS 2006-2008 – with Lucian Blaga University, introducing in vitro Gentiana lutea genotypes into cultivation.",
+          "TECHeese 2010-2012 – effects of medicinal/aromatic plants in sheep diet on milk/meat/health; use of essential oils in new flavored cheeses."
+        ],
+        "involvement": "Partner 1 engaged in dairy product research; field documentation on local resources of milk, plants, and beehive products used as minor ingredients. Samples collected at various stages and provided by farmers were analyzed and processed via lab methods close to production, aiming at diverse finished products including animal, plant, and beehive resources.",
+        "processing": "Natural extracts prepared via rapid extraction under pressure/temperature control, subcritical fluids, steam under vacuum, and ultrasound; innovative recipes respecting traditional methods with ultrasound steps for taste, texture, uniformity, delicacy, and aroma."
+      },
+      {
+        "name": "MNA PRODCOM IMPEX SRL",
+        "role": "Research partner",
+        "logo": "/images/parteneri/mna-impex.png",
+        "intro": "Partner 2 SC MNA PRODCOM IMPEX SRL. Specialized in RDI and technology transfer; proposals appreciated by UEFISCDI, funded in Innovation Vouchers 2012.",
+        "projects": [
+          "Functional foods concentrated in bioactive compounds from ecological resources (65CI/27.06.2012) – conceptual models, physico-chemical analysis, processing methods, micropilot production.",
+          "Bio-protective flavored oils for phytotherapeutic and food uses (146CI/11.09.2012) – conceptual models, innovative products from oil resources with ω3, ω6, ω9, essential oils, and commercialization opportunities."
+        ],
+        "involvement": "Research on local resources from inventory of animal resources and traditional recipes combined with other identified local resources to obtain new products. Innovative character ensured by optimized traditional processing with multiple possibilities to diversify and increase nutritional quality; product innovation includes:",
+        "innovation": [
+          "Preparing animal product samples to assess superior sensory properties due to feeding.",
+          "Achieving superior nutraceutical potential via functional feeds with bio-protective active principles and combining them with plant additives from innovative extractions."
+        ]
+      }
     ]
   },
 
@@ -109,7 +152,7 @@
     "countyLabel": "County",
     "county": "County: Cluj",
     "emailLabel": "E-mail",
-    "email": "valeaolpretului@gmail.com",
+    "email": "naturivis@gmail.com",
     "button": "Send email"
   }
 }

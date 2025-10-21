@@ -9,13 +9,13 @@ const ProjectPage = () => {
   const financing = t('project.programFinantare', { returnObjects: true });
 
   return (
-    <div className="pb-16">
-      <section className="relative overflow-hidden bg-gradient-to-br from-green-800 via-green-600 to-emerald-500 text-white">
+    <div className="pb-16 font-raleway">
+      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-accent to-accent text-white">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1457530378978-8bac673b8062?auto=format&fit=crop&w=1600&q=80')] opacity-20" aria-hidden="true" />
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <p className="text-sm font-semibold uppercase tracking-widest mb-4 text-white/70">{t('project.title')}</p>
-          <h1 className="text-3xl sm:text-4xl font-bold mb-6">{t('project.obiectivPrincipalTitle')}</h1>
-          <p className="text-lg text-white/90 max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-6 font-raleway">{t('project.obiectivPrincipalTitle')}</h1>
+          <p className="text-lg text-white/90 max-w-3xl font-raleway">
             {t('project.obiectivPrincipalBody')}
           </p>
         </div>
@@ -23,7 +23,7 @@ const ProjectPage = () => {
 
       <Section title={t('project.obiectiveSecTitle')}>
         <div className="max-w-3xl mx-auto text-left">
-          <ul className="space-y-4 text-gray-700 text-base list-disc list-inside">
+          <ul className="space-y-4 text-gray-700 text-base list-disc list-inside font-raleway">
             {objectives.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
@@ -58,7 +58,7 @@ const ProjectPage = () => {
         <div className="text-center">
           <Link
             to="/produse"
-            className="inline-flex items-center justify-center rounded-full bg-green-600 px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-green-700 transition-colors duration-200"
+            className="inline-flex items-center justify-center rounded-full bg-accent px-6 py-3 text-base font-semibold text-white shadow-lg hover:bg-accent/90 transition-colors duration-200"
           >
             {t('home.ctaProducts')}
           </Link>

@@ -2,14 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global font family */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* CSS Custom Properties for Dynamic Theming */
 :root {
-  /* Placeholder theme colors for template; customize per project */
-  --primary-color: #2E7D32;
-  --secondary-color: #8BC34A;
-  --accent-color: #FF9800;
+  /* Naturivis brand colors */
+  --primary-color: #0e4652;
+  --secondary-color: #34ab53;
+  --accent-color: #34ab53;
   --background-color: #ffffff;
-  --text-color: #333333;
+  --text-color: #000000;
   --text-light-color: #666666;
 }
 

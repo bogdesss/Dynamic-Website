@@ -7,12 +7,12 @@ const Section = ({ id, title, intro, children }) => {
         {(title || intro) && (
           <div className="max-w-3xl mx-auto text-center mb-12">
             {title && (
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 font-raleway">
                 {title}
               </h2>
             )}
             {intro && (
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-gray-600 font-raleway">
                 {intro}
               </p>
             )}

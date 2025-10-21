@@ -1,4 +1,9 @@
 {
+  "brand": {
+    "name": "Naturivis",
+    "tagline": "Inspirată de natură, creată în Transilvania"
+  },
+
   "nav": { "home": "Acasă", "products": "Produse", "project": "Proiect", "partners": "Parteneri", "contact": "Contact" },
 
   "home": {
@@ -20,7 +25,7 @@
   },
 
   "products": {
-    "pageTitle": "Produse dezvoltate în proiect",
+    "pageTitle": "Produse dezvoltate prin proiect",
     "items": [
       {
         "slug": "jeleu-zmeura-resveratrol",
@@ -31,7 +36,8 @@
           "Indice glicemic scăzut; sprijină reglarea glicemiei.",
           "Favorizează digestia lentă, reducând creșterile rapide ale zahărului."
         ],
-        "body": "Zmeura este un fruct parfumat și hrănitor, cu puține calorii și bogat în micronutrienți. Conținutul scăzut de zahăr și indicele glicemic mic o fac o alegere potrivită pentru controlul glicemiei."
+        "body": "Zmeura este un fruct parfumat și hrănitor, cu puține calorii și bogat în micronutrienți. Conținutul scăzut de zahăr și indicele glicemic mic o fac o alegere potrivită pentru controlul glicemiei.",
+        "image": "/Img/Raspberry.png"
       },
       {
         "slug": "jeleu-coacaze-resveratrol",
@@ -42,7 +48,8 @@
           "Susțin sănătatea inimii (tensiune, colesterol).",
           "Îmbunătățesc digestia."
         ],
-        "body": "Produs gelificat obținut din sucuri/markuri de fructe, zahăr, acizi și pectină. Coacăzele au profil nutritiv bogat și compuși bioactivi valoroși."
+        "body": "Produs gelificat obținut din sucuri/markuri de fructe, zahăr, acizi și pectină. Coacăzele au profil nutritiv bogat și compuși bioactivi valoroși.",
+        "image": "/Img/Blackcurrant.png"
       },
       {
         "slug": "jeleu-afine-resveratrol",
@@ -53,7 +60,8 @@
           "Conținut nutritiv ridicat cu puține calorii.",
           "Vitamina K funcționează sinergic cu vitamina D."
         ],
-        "body": "Afinele sunt considerate super-fructe: densitate nutritivă mare și aport caloric redus. Vitamina K joacă rol esențial pentru oase și sistemul cardiovascular."
+        "body": "Afinele sunt considerate super-fructe: densitate nutritivă mare și aport caloric redus. Vitamina K joacă rol esențial pentru oase și sistemul cardiovascular.",
+        "image": "/Img/Blueberry.png"
       },
       {
         "slug": "miere-crema-coacaze-iulisca",
@@ -64,7 +72,8 @@
           "Calmează emoțiile în situații tensionate.",
           "Susține sănătatea funcțiilor cognitive."
         ],
-        "body": "Produs obținut prin omogenizarea extractelor naturale și condimentelor aromatice cu miere/fructoză, destinat stării de bine și susținerii funcțiilor cognitive."
+        "body": "Produs obținut prin omogenizarea extractelor naturale și condimentelor aromatice cu miere/fructoză, destinat stării de bine și susținerii funcțiilor cognitive.",
+        "image": "/Img/CreamedHoney.png"
       }
     ]
   },
@@ -92,10 +101,44 @@
 
   "partners": {
     "title": "Parteneri",
+    "labels": {
+      "projects": "Proiecte",
+      "involvement": "Implicare",
+      "processing": "Procesări",
+      "innovation": "Inovare"
+    },
     "list": [
-      { "name": "Valea Olprețului Cooperativa Agricolă", "role": "Lider de proiect", "logo": "/images/parteneri/valea-olpretului.png" },
-      { "name": "NUTRACEUTICAL SRL", "role": "Partener cercetare", "logo": "/images/parteneri/nutraceutical.png" },
-      { "name": "MNA IMPEX SRL", "role": "Partener cercetare", "logo": "/images/parteneri/mna-impex.png" }
+      { "name": "Naturivis", "role": "Lider de proiect", "logo": "/img/logo.png" },
+      {
+        "name": "NUTRACEUTICAL SRL (Săcele, Brașov)",
+        "role": "Partener cercetare",
+        "logo": "/images/parteneri/nutraceutical.png",
+        "intro": "Partener 1 Societatea NUTRACEUTICAL SRL, cu sediul in Sacele, judetul Brasov, are o bogata experienta in activitatile practice de cercetare-dezvoltare inovare si transfer tehnologic, participand la derularea si implementarea unor proiecte interne si internationale:",
+        "projects": [
+          "“Cercetare si productie in domeniul plantelor medicinale, fructelor de padure si legumelor” - RICOP/Nutraceutical 2004-2007, prin care s-a urmarit crearea si punerea pe piata a unor produse noi realizate din materii prime produse, mai ales in Romania, urmarindu-se folosirea unor metode de procesare noninvazive care urmareau pastrarea nealterata a substantelor active acumulate in plantele medicinale, fructele de padure si legume.",
+          "“SAFFIC – Methodologies for implementing International Standards for Saffron Purity and Quality” – proiect al unui consortiu international din care a facut parte si NUTRACEUTICAL SRL 2006-2009, care a urmarit atat imbunatatirea metodelor de productie a sofranului, cel mai scump condiment de pe piata mondiala, cat si identificarea unor compusi specifici unici si stabilirea unor metode facile de determinare a acestora pentru a putea determina falsurile din piata specifica si stimularea culturilor bio din aceasta specie valoroasa atat din punct de vedere condimentar cat si medicinal.",
+          "“ENERGOFORT – Cercetari avansate privind obtinerea de compusi bioprotectivi cu insusiri revigorante, in situatiile de criza, procesati din resurse autohtone” - 2006-2008 – consortiu romanesc prin care s-au pus la punct metode de extractie rapida a substantelor bioactive, urmata de utilizarea acestora in suplimente alimentare.",
+          "“IMS - Identificarea de noi resurse cu potential competitiv intern si international in contextul dezvoltarii durabile si conservarii biodiversitatii, prin utilizarea genotipurilor valoroase din specia Gentiana lutea L. obtinute “in vitro” - 2006-2008, proiect in consortiu cu Universitatea Lucian Blaga” din Sibiu, prin carea s-a urmarit introducerea in cultura a genotipurilor obtinute “in vitro” din Gentiana lutea, specie pe cale de disparitie din flora spontana montana din Romania, ocrotita si declarata “monument al naturii” dar si o sursa valoroasa de compusi bioprotectivi cu proprietati medicinale.",
+          "“TECHeese – SOLVING THE TECHNOLOGICAL PROBLEMS OF SHEEP CHEESE PRODUCTION” - 2010-2012 – proiect international din care a facut parte si NUTRACEUTICAL, care a cercetat influienta introducerii unor plante medicinale si aromatice in hrana oilor asupra productiei si calitatii laptelui, carnii si starii de sanatate a acestora. De asemenea s-a studiat posibilitatea utilizarii uleiurilor esentiale in obtinerea unor sortimente noi de branzeturi aromate."
+        ],
+        "involvement": "Partenerul 1 s-a implictat in activitatea de cercetare produse lactate. Membrii echipei de cercetare s-au deplasat in zona beneficiarilor proiectului pentru a se documenta asupra resurselor existente de lapte, produse vegetale, produse ale stupului (polen, miere, propolis etc.), care au fost folosite în proporţii reduse ca si ingrediente în produsele pe bază. Mostre din materiile prime recoltate in diferite faze de dezvoltare din zona cat si cele puse la dispozitie de fermierii parteneri au fost analizate si procesate prin diferite metode de laborator (cat mai apropiate de metodele ce se vor implementa in productie) urmarind apoi realizarea unor produse finite cat mai diversificate ce vor include materii prime de origine animala, vegetala si produse ale stupului.",
+        "processing": "Pentru aditivarea si innobilarea produselor animaliere din lapte s-au folosit diferite extracte de plante recoltate din zona beneficiarilor. Extractele s-au realizat prin metode de extractie rapida sub presiune si temperatura controlata, prin extractia in fluide la presiune subcritica, prin extractia cu vapori de apa sub vid si prin extractia in camp ultrasonic. O activitate importanta a fost elaborarea retetelor inovative, care s-au facut respectand metodele traditionale de procesare a laptelui, insotite de faze ale procesarii ce se vor realiza in camp ultrasonic pentru o armonizare a gustului, texturii, uniformitatii, delicatetii si mirosului produselor finite sanogene cu o valoare nutritiva innobilata ce inglobeaza multitudinea substantelor bioactive deosebit de valoroase din „Mândra şi Binecuvantata Ţara a Oaşului”."
+      },
+      {
+        "name": "MNA PRODCOM IMPEX SRL",
+        "role": "Partener cercetare",
+        "logo": "/images/parteneri/mna-impex.png",
+        "intro": "Partener 2 SC MNA PRODCOM IMPEX SRL Societatea SC MNA Prodcom Impex SRL, specializată în activităţi de cercetare-dezvoltare inovare și transfer tehnologic, a elaborat propuneri de proiecte la secţiunea „Agricultura, siguranţa şi securitatea alimentară“ întrunind aprecierea evaluatorilor UEFISCDI, fiindu-i finanțate două proiecte cu care a participat la compeţia ,,Cecuri de Inovare 2012‘‘.",
+        "projects": [
+          "„Alimente funcţionale concentrate în compuşi bioactivi procesate din resurse ecologice“ (65CI/27.06.2012), prin care s-a urmărit obţinerea următoarelor obiective: elaborarea de modele conceptuale în scopul realizării produselor ecologice cu potenţial sanogen relevant; analiza fizico-chimică şi stereostructurală a unor resurse, pentru produse ecologice cu înaltă densitate nutraceutică; definirea procedeelor de procesare a resurselor ecologice adecvate realizării produselor cu însuşiri revigorante, detoxifiante şi alcalinizante; producţia la nivel de micropilot a unor eşantioane reprezentative sub aspect nutraceutic şi senzorial.",
+          "„Uleiuri aromatizate bioprotective cu utilizări fitoterapeutice şi alimentare“ (146CI/11.09.2012) prin care s-a urmărit obţinerea următoarelor obiective: elaborarea modelelor conceptuale de obţinere a uleiurilor aromatizate; realizarea de produse inovative din resurse oleaginoase cu nivel ridicat în acizi graşi mono şi polinesaturaţi (ω3, ω6, ω9) aditivate cu uleiuri esenţiale volatile, aromatizante, revigorante şi energizante; realizarea unor sortimente cu înalt potenţial sanogen cu posibilităţi de comercializare profitabile; implementarea informaţiilor situate în prezent la frontierea cunoaşterii ştiinţifice de către echipa furnizorului."
+        ],
+        "involvement": "Parnerul 2 s-a implicat in activitatea de cercetare resurse locale plecand de la inventarierea resurselor animaliere si retetelor de preparare traditionala a produselor din lapte care in combinatie cu alte resurse locale identificate pe parcursul proiectului si a rezultatul cercetarii, a realizat produse noi. Caracterul inovativ al proiectului este asigurat de procesari traditionale optimizate prin rezutatele cercetarii cu posibilitati multimple de diversificare si crestere a calitatii nutritionale a acestora. Proiectul vizeaza inovarea de produs care se regaseste in:",
+        "innovation": [
+          "pregatirea esantioanelor de produse animaliere in vederea aprecierii insusirilor senzoriale superioare datorata furajarii.",
+          "Aspectele inovative care au fost integrate în proiect, vizeaza obtinerea de produse animaliere cu potential nutraceutic superior consecutiv utilizarii in hrana accestora a unor furaje functionale, detinatoare de principi active cu impact sanogen bioprotectiv si insusiri senzoriale atractive si combinarea lor cu aditivi vegetali proveniti din extractii inovative."
+        ]
+      }
     ]
   },
 
@@ -109,7 +152,7 @@
     "countyLabel": "Județ",
     "county": "Județ: Cluj",
     "emailLabel": "E-mail",
-    "email": "valeaolpretului@gmail.com",
+    "email": "naturivis@gmail.com",
     "button": "Trimite e-mail"
   }
 }

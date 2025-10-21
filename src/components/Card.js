@@ -5,17 +5,17 @@ const Card = ({ title, bullets, body, ctaText, href, children }) => {
     <article className="h-full rounded-2xl bg-white shadow-sm ring-1 ring-gray-200 hover:shadow-md transition-shadow duration-200">
       <div className="p-6 sm:p-8 flex flex-col h-full">
         {title && (
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">
+          <h3 className="text-xl font-semibold text-gray-900 mb-4 font-raleway">
             {title}
           </h3>
         )}
         {body && (
-          <p className="text-base text-gray-600 mb-4">
+          <p className="text-base text-gray-600 mb-4 font-raleway">
             {body}
           </p>
         )}
         {Array.isArray(bullets) && bullets.length > 0 && (
-          <ul className="space-y-2 text-gray-600 mb-6 list-disc list-inside">
+          <ul className="space-y-2 text-gray-600 mb-6 list-disc list-inside font-raleway">
             {bullets.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
@@ -25,7 +25,7 @@ const Card = ({ title, bullets, body, ctaText, href, children }) => {
         {ctaText && href && (
           <div className="mt-auto pt-6">
             <a
-              className="inline-flex items-center text-sm font-semibold text-green-700 hover:text-green-800"
+              className="inline-flex items-center text-sm font-semibold text-accent hover:text-accent/80"
               href={href}
             >
               {ctaText}

@@ -8,7 +8,7 @@ const ProductsPage = () => {
   const items = t('products.items', { returnObjects: true });
 
   return (
-    <div className="py-16">
+    <div className="py-16 font-raleway">
       <Section title={t('products.pageTitle')}>
         <div className="grid gap-8 sm:grid-cols-2">
           {items.map((item) => (
