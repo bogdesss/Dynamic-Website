@@ -28,7 +28,7 @@ export const sendCartEmail = async (cartData, customerInfo) => {
       from_name: customerInfo.name,
       from_email: customerInfo.email,
       phone: customerInfo.phone,
-      message: customerInfo.message || 'Comandă de produse agricole',
+      message: customerInfo.message || 'Comandă de produse naturale',
       
       // Cart details
       total_items: cartData.totalItems,
@@ -38,7 +38,7 @@ export const sendCartEmail = async (cartData, customerInfo) => {
       ).join('\n'),
       
       // Company info
-      company_name: 'Valea Olpretului Cooperativa Agricola',
+      company_name: 'Naturivis',
       order_date: new Date().toLocaleDateString('ro-RO'),
     };
 
@@ -81,7 +81,7 @@ export const sendCartEmailFallback = (cartData, customerInfo) => {
 Nume: ${customerInfo.name}
 Email: ${customerInfo.email}
 Telefon: ${customerInfo.phone}
-Mesaj: ${customerInfo.message || 'Comandă de produse agricole'}
+Mesaj: ${customerInfo.message || 'Comandă de produse naturale'}
 
 PRODUSE COMANDATE:
 ${cartDetails}

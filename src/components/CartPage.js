@@ -25,7 +25,7 @@ const CartPage = () => {
       <div className="min-h-screen bg-gray-50 py-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl font-bold mb-8 text-center text-primary">
               {t('cart.title')}
             </h1>
             <div className="bg-white rounded-lg shadow-md p-12">
@@ -52,11 +52,11 @@ const CartPage = () => {
     <div className="min-h-screen bg-gray-50 py-8">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-4xl font-bold mb-8 text-center text-primary">
             {t('cart.title')}
           </h1>
           <p className="text-xl text-gray-600">
-            Valea Olpretului Cooperativa Agricola
+            Naturivis
           </p>
           
           {successMessage && (
@@ -143,7 +143,7 @@ const CartPage = () => {
               </button>
               <button
                 onClick={handleSendEmail}
-                className="flex-1 py-2 px-4 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors"
+                className="flex-1 py-2 px-4 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors"
               >
                 {t('cart.checkout')}
               </button>

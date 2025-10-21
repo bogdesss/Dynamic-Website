@@ -8,9 +8,9 @@
     "gdpr": "GDPR"
   },
   "hero": {
-    "title": "Valea Olprețului Agricultural Cooperative",
-    "subtitle": "Local, fresh and quality agricultural products",
-    "description": "Discover our fresh agricultural products, carefully grown in Valea Olprețului.",
+    "title": "Naturivis",
+    "subtitle": "Inspired by nature, created in Transylvania",
+    "description": "Discover our natural products, created with passion in the heart of Transylvania.",
     "ctaText": "View Products"
   },
   "product": {
@@ -68,16 +68,14 @@
     "infoBlock": {
       "title": "Contact details:",
       "lines": [
-        "Address: Razbuneni, No. 26, Bobâlna commune,",
-        "Work point: Valcelele village",
-        "County: Cluj",
-        "E-mail: valeaolpretului@gmail.com"
+        "Address: Transylvania, Romania",
+        "E-mail: contact@naturivis.ro"
       ]
     }
   },
   "about": {
     "title": "About Us",
-    "description": "We innovate and collaborate to bring quality agricultural products to our community.",
+    "description": "We innovate and collaborate to bring quality natural products to our community.",
     "newContent": {
       "purpose": {
         "title": "Purpose",
@@ -113,7 +111,7 @@
         "Develop innovative technologies in the dairy industry",
         "Improve the quality of dairy products",
         "Increase production process efficiency",
-        "Promote sustainability in the agricultural sector"
+        "Promote sustainability in the natural products sector"
       ]
     },
     "benefits": {
@@ -122,7 +120,7 @@
         "More efficient and sustainable technologies",
         "Higher quality dairy products",
         "Collaboration with specialized partners",
-        "Contribution to the development of the agricultural sector"
+        "Contribution to the development of the natural products sector"
       ]
     }
   },

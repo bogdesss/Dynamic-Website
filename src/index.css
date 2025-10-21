@@ -4,9 +4,9 @@
 
 /* CSS Custom Properties for Dynamic Theming */
 :root {
-  --primary-color: #2E7D32;      /* Forest Green for LactaProd */
-  --secondary-color: #8BC34A;    /* Light Green */
-  --accent-color: #FF9800;       /* Orange */
+  --primary-color: #0e4652;      /* Deep Teal for Naturivis */
+  --secondary-color: #34ab53;    /* Nature Green */
+  --accent-color: #000000;       /* Black */
   --background-color: #ffffff;
   --text-color: #333333;
   --text-light-color: #666666;
@@ -22,7 +22,7 @@
 }
 
 /* Utility classes for dynamic theming */
-.text-primary { color: var(--primary-color); }
+
 .bg-primary { background-color: var(--primary-color); }
 .border-primary { border-color: var(--primary-color); }
 .hover\:bg-primary:hover { background-color: var(--primary-color); }

@@ -67,7 +67,7 @@ const LiveCart = () => {
           </div>
           <Link 
             to="/products"
-            className="text-green-600 hover:text-green-700 text-sm font-medium"
+            className="text-primary hover:text-primary/90 text-sm font-medium"
           >
             {t('liveCart.viewProducts')}
           </Link>
@@ -123,21 +123,21 @@ const LiveCart = () => {
           <span className="text-lg font-semibold text-gray-900">
             {t('liveCart.total')}
           </span>
-          <span className="text-xl font-bold text-green-600">
+          <span className="text-xl font-bold text-primary">
             {getTotalPrice().toFixed(2)} RON
           </span>
         </div>
         
         <button
           onClick={() => setIsModalOpen(true)}
-          className="w-full bg-green-600 text-white py-2 px-4 rounded-md hover:bg-green-700 transition-colors text-center block font-medium"
+          className="w-full bg-primary text-white py-2 px-4 rounded-md hover:bg-primary/90 transition-colors text-center block font-medium"
         >
           {t('liveCart.checkout')}
         </button>
       </div>
       
       {successMessage && (
-        <div className="mt-2 p-2 bg-green-100 border border-green-400 text-green-700 rounded text-sm">
+        <div className="mt-2 p-2 bg-primary/10 border border-primary/20 text-primary rounded text-sm">
           {successMessage}
         </div>
       )}

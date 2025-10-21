@@ -111,7 +111,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           </p>
           
           {successMessage && (
-            <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+            <div className="bg-primary/10 border border-primary/20 text-primary px-4 py-3 rounded mb-4">
               {successMessage}
             </div>
           )}

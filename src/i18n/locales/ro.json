@@ -8,9 +8,9 @@
     "gdpr": "GDPR"
   },
   "hero": {
-    "title": "Valea Olprețului Cooperativa Agricolă",
-    "subtitle": "Produse agricole locale, proaspete și de calitate",
-    "description": "Descoperă produsele noastre agricole proaspete, cultivate cu grijă în Valea Olprețului.",
+    "title": "Naturivis",
+    "subtitle": "Inspirată de natură, creată în Transilvania",
+    "description": "Descoperă produsele noastre naturale, create cu pasiune în inima Transilvaniei.",
     "ctaText": "Vezi Produsele"
   },
   "product": {
@@ -68,16 +68,14 @@
     "infoBlock": {
       "title": "Date de contact:",
       "lines": [
-        "Adresa: loc. Razbuneni, Nr. 26, comuna Bobâlna,",
-        "Punct de lucru sat Valcelele",
-        "Jud. Cluj",
-        "E-mail: valeaolpretului@gmail.com"
+        "Adresa: Transilvania, România",
+        "E-mail: contact@naturivis.ro"
       ]
     }
   },
   "about": {
     "title": "Despre Noi",
-    "description": "Inovăm și colaborăm pentru a aduce comunității produse agricole de calitate.",
+    "description": "Inovăm și colaborăm pentru a aduce comunității produse naturale de calitate.",
     "newContent": {
       "purpose": {
         "title": "Scopul",

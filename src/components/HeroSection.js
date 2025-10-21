@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useValeOlpretuluiInfo } from '../context/SiteContext';
+import { useNaturivisInfo } from '../context/SiteContext';
 import ContactModal from './ContactModal';
 import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
-  const valeOlpretuluiInfo = useValeOlpretuluiInfo();
+  const naturivisInfo = useNaturivisInfo();
   const { t } = useTranslation();
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -39,8 +39,8 @@ const HeroSection = () => {
           {/* CTA Button */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href={valeOlpretuluiInfo.content.hero.ctaLink}
-              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors duration-300 shadow-lg hover:shadow-xl"
+              href={naturivisInfo.content.hero.ctaLink}
+              className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors duration-300 shadow-lg hover:shadow-xl"
             >
               {t('hero.ctaText')}
             </a>

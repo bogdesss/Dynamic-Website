@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useValeOlpretuluiInfo } from '../context/SiteContext';
+import { useNaturivisInfo } from '../context/SiteContext';
 import LanguageSwitcher from './LanguageSwitcher';
 import { useTranslation } from 'react-i18next';
 import BannerImage from '../img/Caseta-Afir.png';
+import LogoImage from '../img/logo.png';
 
 const Header = () => {
-  const valeOlpretuluiInfo = useValeOlpretuluiInfo();
+  const naturivisInfo = useNaturivisInfo();
   const { t } = useTranslation();
   const menuItems = [
     { key: 'home', path: '/' },
@@ -31,16 +32,16 @@ const Header = () => {
         <nav className="flex justify-between items-center">
           {/* Modern Logo/Brand Section */}
           <div className="flex items-center space-x-3 group cursor-pointer">
-            {/* Logo Icon - Dairy/Research Theme */}
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-105">
-              <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-              </svg>
-            </div>
+            {/* Logo Image */}
+            <img 
+              src={LogoImage} 
+              alt="Naturivis Logo" 
+              className="h-12 w-auto object-contain"
+            />
             {/* Brand Text */}
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-800 dark:text-white group-hover:text-primary transition-colors duration-300">
-                {valeOlpretuluiInfo.name}
+                {naturivisInfo.name}
               </span>
             </div>
           </div>
